@@ -1,0 +1,25 @@
+{
+    "id": 390,
+    "level": "plantilla",
+    "rule_set": [
+        {
+            "queue": "omop",
+            "target_table": "preg_chart_prisma",
+            "condition": true,
+            "field_map": [
+                "t.id = parseInt(d.ID_INSTANCIA_PLANT, 10)",
+                "t.person_id = d.ID_PACIENTE",
+                "t.age_nm = parseInt(d.content.id(512).content.idDato(858).content.VALOR, 10) || null",
+                "t.prev_pregnancy_nm = parseInt(d.content.id(515).content.idDato(951).content.VALOR, 10) || null",
+                "t.prev_birth_nm = parseInt(d.content.id(515).content.idDato(952).content.VALOR, 10) || null",
+                "t.prev_abortion_nm = parseInt(d.content.id(515).content.idDato(954).content.VALOR, 10) || null",
+                "t.last_period_dt = d.content.id(516).content.idDato(906).content.VALOR || null",
+                "t.tobacco_bl = d.content.id(513).content.idDato(867).content.VALOR ",
+                "t.alcohol_bl = d.content.id(513).content.idDato(948).content.VALOR",
+                "t.size_nm = parseInt(d.content.id(512).content.idDato(859).content.VALOR, 10) || null",
+                "t.weight_nm = parseInt(d.content.id(601).content.idDato(933).content.VALOR, 10) || null",
+                "t.first_visit_bl = 1" 
+            ]
+        }
+    ]
+  }

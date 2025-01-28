@@ -1,0 +1,22 @@
+{
+  "name": "json2omop",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "prueba": "node main_automatico.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jesús Lizama",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "async-sema": "^3.1.1",
+    "dotenv": "^16.4.5",
+    "mongodb": "^6.10.0",
+    "pg": "^8.13.0",
+    "redis": "^4.7.0",
+    "winston": "^3.17.0"
+  }
+}

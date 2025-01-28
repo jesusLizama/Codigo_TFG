@@ -1,0 +1,7 @@
+docker build -t json2omop-image .
+
+docker run -d -p 3002:3000 --name json2omop json2omop-image
+docker run -d -p 3001:3000 --name data2json data2json-image
+docker run -d -p 3000:3000 --name prisma-omop prisma-omop-image
+
+

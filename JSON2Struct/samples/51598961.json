@@ -1,0 +1,71 @@
+{
+  "NOMBRE": "Plantilla Episodio HIS",
+  "id": "10",
+  "level": "PLANTILLA",
+  "ID_INSTANCIA_PLANT": "51598961",
+  "ID_PACIENTE": "AR903194864Z",
+  "source_cd": "Source",
+  "source_concept_id": 2,
+  "concept_id": null,
+  "content": [
+    {
+      "NOMBRE": "Diagnóstico",
+      "id": "61",
+      "level": "ARQUETIPO",
+      "ID_INSTANCIA_ARQ": "43337533",
+      "source_cd": "source",
+      "source_concept_id": 2,
+      "concept_id": 2,
+      "content": [
+        {
+          "NOMBRE": "Diagnóstico-Estructurado",
+          "id": "161",
+          "level": "DATO",
+          "ESTADO": "C",
+          "ID_INSTANCIA_DATO": "118468981",
+          "source_cd": "source",
+          "source_concept_id": 3,
+          "concept_id": 2,
+          "content": {
+            "PCIA": 864,
+            "ID_INSTANCIA_DATO": "118468981",
+            "ID_DIAGNOSTICO": "25776148",
+            "TIPO_DIAGNOSTICO": 1,
+            "FECHA_REFERENCIA": "2024-07-01T07:05:00.000Z",
+            "ID_CATALOGO": 1,
+            "ID_CODIGO": "373.12",
+            "DESCRIPCION": "ORZUELO INTERNO",
+            "SIST_ORIGEN": "500055",
+            "ID_SISTORIGEN": "1243027258-1-1",
+            "FECHA_ALTA": null,
+            "OBSERVACIONES": null
+          }
+        },
+        {
+          "NOMBRE": "Diagnóstico-Estructurado",
+          "id": "161",
+          "level": "DATO",
+          "ESTADO": "O",
+          "ID_INSTANCIA_DATO": "118468277",
+          "source_cd": "source",
+          "source_concept_id": 3,
+          "concept_id": 2,
+          "content": {
+            "PCIA": 864,
+            "ID_INSTANCIA_DATO": "118468277",
+            "ID_DIAGNOSTICO": "25776148",
+            "TIPO_DIAGNOSTICO": 1,
+            "FECHA_REFERENCIA": "2034-07-01T07:05:00.000Z",
+            "ID_CATALOGO": 1,
+            "ID_CODIGO": "373.12",
+            "DESCRIPCION": "ORZUELO INTERNO",
+            "SIST_ORIGEN": "500055",
+            "ID_SISTORIGEN": "1243027258-1-1",
+            "FECHA_ALTA": null,
+            "OBSERVACIONES": null
+          }
+        }
+      ]
+    }
+  ]
+}

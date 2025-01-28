@@ -1,0 +1,37 @@
+2024-10-02 13:45:10,261 : DEBUG : comm-pool-thread-99 :  : DBUpdateNodeFactory : Update BBDD : 9:87 : Factory is already initialized. Nothing to do.
+2024-10-02 13:45:10,268 : DEBUG : comm-pool-thread-99 :  : WorkflowManager : Update BBDD : 9:87 : Added new connection from node 9:87:0:34(1) to node 9:87:0:32(1)
+2024-10-02 13:45:10,268 : DEBUG : comm-pool-thread-99 :  : WorkflowManager : Update BBDD : 9:87 : Added new connection from node 9:87:0:34(2) to node 9:87:0:32(2)
+2024-10-02 14:03:05,634 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Update BBDD : 9:87 : Created node directory "/home/jlizama/knime-workspace/TFG/Update_BBDD/Update BBDD (#87)"
+2024-10-02 14:03:05,635 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Component Output : 9:87:0:2 : Created node directory "/home/jlizama/knime-workspace/TFG/Update_BBDD/Update BBDD (#87)/Component Output (#2)"
+2024-10-02 14:03:05,636 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : DB Update : 9:87:0:32 : Created node directory "/home/jlizama/knime-workspace/TFG/Update_BBDD/Update BBDD (#87)/DB Update (#32)"
+2024-10-02 14:03:05,637 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Component Input : 9:87:0:34 : Created node directory "/home/jlizama/knime-workspace/TFG/Update_BBDD/Update BBDD (#87)/Component Input (#34)"
+2024-10-02 15:59:57,801 : DEBUG : main :  : DBUpdateNodeModel : DB Update : 9:87:0:32 : Removing all (0) views from model.
+2024-10-02 15:59:57,802 : DEBUG : main :  : Node : DB Update : 9:87:0:32 : clean output ports.
+2024-10-02 15:59:57,802 : DEBUG : main :  : VirtualSubNodeInputNodeModel : Component Input : 9:87:0:34 : Removing all (0) views from model.
+2024-10-02 15:59:57,802 : DEBUG : main :  : Node : Component Input : 9:87:0:34 : clean output ports.
+2024-10-02 15:59:57,802 : DEBUG : main :  : VirtualSubNodeOutputNodeModel : Component Output : 9:87:0:2 : Removing all (0) views from model.
+2024-10-02 15:59:57,802 : DEBUG : main :  : Node : Component Output : 9:87:0:2 : clean output ports.
+2024-10-04 14:11:22,390 : DEBUG : ModalContext :  : DBUpdateNodeFactory : Update BBDD : 12:87 : Factory is already initialized. Nothing to do.
+2024-10-04 14:11:22,394 : DEBUG : ModalContext :  : WorkflowManager : Update BBDD : 12:87 : Added new connection from node 12:87:0:34(1) to node 12:87:0:32(1)
+2024-10-04 14:11:22,394 : DEBUG : ModalContext :  : WorkflowManager : Update BBDD : 12:87 : Added new connection from node 12:87:0:34(2) to node 12:87:0:32(2)
+2024-10-04 14:11:24,534 : DEBUG : comm-pool-thread-89 :  : DBUpdateNodeModel : DB Update : 12:87:0:32 : Removing all (0) views from model.
+2024-10-04 14:11:24,534 : DEBUG : comm-pool-thread-89 :  : Node : DB Update : 12:87:0:32 : clean output ports.
+2024-10-04 14:11:24,534 : DEBUG : comm-pool-thread-89 :  : VirtualSubNodeInputNodeModel : Component Input : 12:87:0:34 : Removing all (0) views from model.
+2024-10-04 14:11:24,535 : DEBUG : comm-pool-thread-89 :  : Node : Component Input : 12:87:0:34 : clean output ports.
+2024-10-04 14:11:24,535 : DEBUG : comm-pool-thread-89 :  : VirtualSubNodeOutputNodeModel : Component Output : 12:87:0:2 : Removing all (0) views from model.
+2024-10-04 14:11:24,535 : DEBUG : comm-pool-thread-89 :  : Node : Component Output : 12:87:0:2 : clean output ports.
+2024-10-04 14:11:24,932 : DEBUG : comm-pool-thread-89 :  : DBUpdateNodeFactory : Update BBDD : 12:210 : Factory is already initialized. Nothing to do.
+2024-10-04 14:11:24,949 : DEBUG : comm-pool-thread-89 :  : WorkflowManager : Update BBDD : 12:210 : Added new connection from node 12:210:0:34(1) to node 12:210:0:32(1)
+2024-10-04 14:11:24,949 : DEBUG : comm-pool-thread-89 :  : WorkflowManager : Update BBDD : 12:210 : Added new connection from node 12:210:0:34(2) to node 12:210:0:32(2)
+2024-10-04 14:11:24,950 : DEBUG : comm-pool-thread-89 :  : WorkflowManager : Update BBDD : 12:210 : Added new connection from node 12:210:0:32(1) to node 12:210:0:35(1)
+2024-10-04 14:11:31,536 : DEBUG : main :  : VariableTypeRegistry : Component Input : 12:210:0:34 : The following variable types could all correspond to the config 'excluded_names': [STRINGARRAY, BOOLEANARRAY, INTARRAY, LONGARRAY, DOUBLEARRAY]. Taking the first.
+2024-10-04 14:15:12,496 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Update BBDD : 12:210 : Created node directory "/home/jlizama/knime-workspace/TFG/Update_BBDD/Update BBDD (#210)"
+2024-10-04 14:15:12,501 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : DB Update : 12:210:0:32 : Created node directory "/home/jlizama/knime-workspace/TFG/Update_BBDD/Update BBDD (#210)/DB Update (#32)"
+2024-10-04 14:15:12,503 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Component Input : 12:210:0:34 : Created node directory "/home/jlizama/knime-workspace/TFG/Update_BBDD/Update BBDD (#210)/Component Input (#34)"
+2024-10-04 14:15:12,505 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Component Output : 12:210:0:35 : Created node directory "/home/jlizama/knime-workspace/TFG/Update_BBDD/Update BBDD (#210)/Component Output (#35)"
+2024-10-04 14:15:36,395 : DEBUG : main :  : VirtualSubNodeOutputNodeModel : Component Output : 12:210:0:35 : Removing all (0) views from model.
+2024-10-04 14:15:36,396 : DEBUG : main :  : Node : Component Output : 12:210:0:35 : clean output ports.
+2024-10-04 14:15:36,396 : DEBUG : main :  : DBUpdateNodeModel : DB Update : 12:210:0:32 : Removing all (0) views from model.
+2024-10-04 14:15:36,396 : DEBUG : main :  : Node : DB Update : 12:210:0:32 : clean output ports.
+2024-10-04 14:15:36,396 : DEBUG : main :  : VirtualSubNodeInputNodeModel : Component Input : 12:210:0:34 : Removing all (0) views from model.
+2024-10-04 14:15:36,396 : DEBUG : main :  : Node : Component Input : 12:210:0:34 : clean output ports.

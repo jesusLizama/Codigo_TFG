@@ -1,0 +1,177 @@
+2024-10-02 13:09:58,290 : DEBUG : comm-pool-thread-81 :  : DBQueryReaderNodeFactory : Query : 9:84 : Factory is already initialized. Nothing to do.
+2024-10-02 13:09:58,292 : DEBUG : comm-pool-thread-81 :  : SamplingNodeFactory : Query : 9:84 : Factory is already initialized. Nothing to do.
+2024-10-02 13:09:58,297 : DEBUG : comm-pool-thread-81 :  : ColumnHeaderExtractorNodeFactory : Query : 9:84 : Factory is already initialized. Nothing to do.
+2024-10-02 13:09:58,299 : DEBUG : comm-pool-thread-81 :  : TableToVariable3NodeFactory : Query : 9:84 : Factory is already initialized. Nothing to do.
+2024-10-02 13:09:58,301 : DEBUG : comm-pool-thread-81 :  : WorkflowManager : Query : 9:84 : Added new connection from node 9:84:0:63(1) to node 9:84:0:15(1)
+2024-10-02 13:09:58,301 : DEBUG : comm-pool-thread-81 :  : WorkflowManager : Query : 9:84 : Added new connection from node 9:84:0:63(2) to node 9:84:0:15(0)
+2024-10-02 13:09:58,301 : DEBUG : comm-pool-thread-81 :  : WorkflowManager : Query : 9:84 : Added new connection from node 9:84:0:15(1) to node 9:84:0:62(1)
+2024-10-02 13:09:58,301 : DEBUG : comm-pool-thread-81 :  : WorkflowManager : Query : 9:84 : Added new connection from node 9:84:0:66(1) to node 9:84:0:67(1)
+2024-10-02 13:09:58,301 : DEBUG : comm-pool-thread-81 :  : WorkflowManager : Query : 9:84 : Added new connection from node 9:84:0:67(1) to node 9:84:0:65(2)
+2024-10-02 13:09:58,301 : DEBUG : comm-pool-thread-81 :  : WorkflowManager : Query : 9:84 : Added new connection from node 9:84:0:15(1) to node 9:84:0:66(1)
+2024-10-02 13:09:58,301 : DEBUG : comm-pool-thread-81 :  : WorkflowManager : Query : 9:84 : Added new connection from node 9:84:0:62(1) to node 9:84:0:65(1)
+2024-10-02 13:11:22,654 : DEBUG : comm-pool-thread-83 :  : Node : Variable Creator : 9:75 : Configure succeeded. (Variable Creator)
+2024-10-02 13:11:44,280 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Variable Creator : 9:75 : Created node directory "/home/jlizama/knime-workspace/TFG/Query/Variable Creator (#75)"
+2024-10-02 13:11:44,281 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Query : 9:84 : Created node directory "/home/jlizama/knime-workspace/TFG/Query/Query (#84)"
+2024-10-02 13:11:44,281 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : DB Query Reader : 9:84:0:15 : Created node directory "/home/jlizama/knime-workspace/TFG/Query/Query (#84)/DB Query Reader (#15)"
+2024-10-02 13:11:44,282 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Row Sampling : 9:84:0:62 : Created node directory "/home/jlizama/knime-workspace/TFG/Query/Query (#84)/Row Sampling (#62)"
+2024-10-02 13:11:44,282 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Component Input : 9:84:0:63 : Created node directory "/home/jlizama/knime-workspace/TFG/Query/Query (#84)/Component Input (#63)"
+2024-10-02 13:11:44,283 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Component Output : 9:84:0:65 : Created node directory "/home/jlizama/knime-workspace/TFG/Query/Query (#84)/Component Output (#65)"
+2024-10-02 13:11:44,283 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Column Name Extractor : 9:84:0:66 : Created node directory "/home/jlizama/knime-workspace/TFG/Query/Query (#84)/Column Name Extractor (#66)"
+2024-10-02 13:11:44,284 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Table Row to Variable : 9:84:0:67 : Created node directory "/home/jlizama/knime-workspace/TFG/Query/Query (#84)/Table Row to Variable (#67)"
+2024-10-02 13:13:42,229 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Query : 9:84 : Created node directory "/home/jlizama/knime-workspace/TFG/Query/Query (#84)"
+2024-10-02 13:13:42,233 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : DB Query Reader : 9:84:0:15 : Replaced node directory "/home/jlizama/knime-workspace/TFG/Query/Query (#84)/DB Query Reader (#15)"
+2024-10-02 13:13:42,234 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Row Sampling : 9:84:0:62 : Replaced node directory "/home/jlizama/knime-workspace/TFG/Query/Query (#84)/Row Sampling (#62)"
+2024-10-02 13:13:42,235 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Column Name Extractor : 9:84:0:66 : Replaced node directory "/home/jlizama/knime-workspace/TFG/Query/Query (#84)/Column Name Extractor (#66)"
+2024-10-02 13:13:42,236 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Table Row to Variable : 9:84:0:67 : Replaced node directory "/home/jlizama/knime-workspace/TFG/Query/Query (#84)/Table Row to Variable (#67)"
+2024-10-02 13:44:53,965 : DEBUG : main :  : VirtualSubNodeOutputNodeModel : Component Output : 9:84:0:65 : Removing all (0) views from model.
+2024-10-02 13:44:53,965 : DEBUG : main :  : Node : Component Output : 9:84:0:65 : clean output ports.
+2024-10-02 13:44:53,965 : DEBUG : main :  : TableToVariable3NodeModel : Table Row to Variable : 9:84:0:67 : Removing all (0) views from model.
+2024-10-02 13:44:53,965 : DEBUG : main :  : Node : Table Row to Variable : 9:84:0:67 : clean output ports.
+2024-10-02 13:44:53,965 : DEBUG : main :  : ColumnHeaderExtractorNodeModel : Column Name Extractor : 9:84:0:66 : Removing all (0) views from model.
+2024-10-02 13:44:53,965 : DEBUG : main :  : Node : Column Name Extractor : 9:84:0:66 : clean output ports.
+2024-10-02 13:44:53,965 : DEBUG : main :  : SamplingNodeModel : Row Sampling : 9:84:0:62 : Removing all (0) views from model.
+2024-10-02 13:44:53,965 : DEBUG : main :  : Node : Row Sampling : 9:84:0:62 : clean output ports.
+2024-10-02 13:44:53,965 : DEBUG : main :  : DBQueryReaderNodeModel : DB Query Reader : 9:84:0:15 : Removing all (0) views from model.
+2024-10-02 13:44:53,965 : DEBUG : main :  : Node : DB Query Reader : 9:84:0:15 : clean output ports.
+2024-10-02 13:44:53,965 : DEBUG : main :  : VirtualSubNodeInputNodeModel : Component Input : 9:84:0:63 : Removing all (0) views from model.
+2024-10-02 13:44:53,965 : DEBUG : main :  : Node : Component Input : 9:84:0:63 : clean output ports.
+2024-10-02 13:44:53,966 : DEBUG : main :  : VariableCreatorNodeModel : Variable Creator : 9:75 : Removing all (0) views from model.
+2024-10-02 13:44:53,966 : DEBUG : main :  : Node : Variable Creator : 9:75 : clean output ports.
+2024-10-02 14:07:18,642 : DEBUG : ModalContext :  : VariableCreatorNodeFactory : Query : 13 : Factory is already initialized. Nothing to do.
+2024-10-02 14:07:18,646 : DEBUG : ModalContext :  : Node : Variable Creator : 13:75 : Configure succeeded. (Variable Creator)
+2024-10-02 14:07:18,647 : DEBUG : ModalContext :  : DBQueryReaderNodeFactory : Query : 13:84 : Factory is already initialized. Nothing to do.
+2024-10-02 14:07:18,649 : DEBUG : ModalContext :  : SamplingNodeFactory : Query : 13:84 : Factory is already initialized. Nothing to do.
+2024-10-02 14:07:18,657 : DEBUG : ModalContext :  : ColumnHeaderExtractorNodeFactory : Query : 13:84 : Factory is already initialized. Nothing to do.
+2024-10-02 14:07:18,662 : DEBUG : ModalContext :  : TableToVariable3NodeFactory : Query : 13:84 : Factory is already initialized. Nothing to do.
+2024-10-02 14:07:18,663 : DEBUG : ModalContext :  : WorkflowManager : Query : 13:84 : Added new connection from node 13:84:0:63(1) to node 13:84:0:15(1)
+2024-10-02 14:07:18,664 : DEBUG : ModalContext :  : WorkflowManager : Query : 13:84 : Added new connection from node 13:84:0:63(2) to node 13:84:0:15(0)
+2024-10-02 14:07:18,664 : DEBUG : ModalContext :  : WorkflowManager : Query : 13:84 : Added new connection from node 13:84:0:15(1) to node 13:84:0:62(1)
+2024-10-02 14:07:18,664 : DEBUG : ModalContext :  : WorkflowManager : Query : 13:84 : Added new connection from node 13:84:0:66(1) to node 13:84:0:67(1)
+2024-10-02 14:07:18,664 : DEBUG : ModalContext :  : WorkflowManager : Query : 13:84 : Added new connection from node 13:84:0:67(1) to node 13:84:0:65(2)
+2024-10-02 14:07:18,664 : DEBUG : ModalContext :  : WorkflowManager : Query : 13:84 : Added new connection from node 13:84:0:15(1) to node 13:84:0:66(1)
+2024-10-02 14:07:18,664 : DEBUG : ModalContext :  : WorkflowManager : Query : 13:84 : Added new connection from node 13:84:0:62(1) to node 13:84:0:65(1)
+2024-10-02 15:59:57,822 : DEBUG : main :  : VirtualSubNodeOutputNodeModel : Component Output : 13:84:0:65 : Removing all (0) views from model.
+2024-10-02 15:59:57,822 : DEBUG : main :  : Node : Component Output : 13:84:0:65 : clean output ports.
+2024-10-02 15:59:57,822 : DEBUG : main :  : TableToVariable3NodeModel : Table Row to Variable : 13:84:0:67 : Removing all (0) views from model.
+2024-10-02 15:59:57,822 : DEBUG : main :  : Node : Table Row to Variable : 13:84:0:67 : clean output ports.
+2024-10-02 15:59:57,822 : DEBUG : main :  : ColumnHeaderExtractorNodeModel : Column Name Extractor : 13:84:0:66 : Removing all (0) views from model.
+2024-10-02 15:59:57,822 : DEBUG : main :  : Node : Column Name Extractor : 13:84:0:66 : clean output ports.
+2024-10-02 15:59:57,822 : DEBUG : main :  : SamplingNodeModel : Row Sampling : 13:84:0:62 : Removing all (0) views from model.
+2024-10-02 15:59:57,822 : DEBUG : main :  : Node : Row Sampling : 13:84:0:62 : clean output ports.
+2024-10-02 15:59:57,822 : DEBUG : main :  : DBQueryReaderNodeModel : DB Query Reader : 13:84:0:15 : Removing all (0) views from model.
+2024-10-02 15:59:57,822 : DEBUG : main :  : Node : DB Query Reader : 13:84:0:15 : clean output ports.
+2024-10-02 15:59:57,822 : DEBUG : main :  : VirtualSubNodeInputNodeModel : Component Input : 13:84:0:63 : Removing all (0) views from model.
+2024-10-02 15:59:57,822 : DEBUG : main :  : Node : Component Input : 13:84:0:63 : clean output ports.
+2024-10-02 15:59:57,822 : DEBUG : main :  : VariableCreatorNodeModel : Variable Creator : 13:75 : Removing all (0) views from model.
+2024-10-02 15:59:57,822 : DEBUG : main :  : Node : Variable Creator : 13:75 : clean output ports.
+2024-10-04 08:59:04,818 : DEBUG : ModalContext :  : VariableCreatorNodeFactory : Query : 4 : Factory is already initialized. Nothing to do.
+2024-10-04 08:59:04,869 : DEBUG : ModalContext :  : Node : Variable Creator : 4:75 : Configure succeeded. (Variable Creator)
+2024-10-04 08:59:04,875 : DEBUG : ModalContext :  : DBQueryReaderNodeFactory : Query : 4:84 : Factory is already initialized. Nothing to do.
+2024-10-04 08:59:04,879 : DEBUG : ModalContext :  : SamplingNodeFactory : Query : 4:84 : Factory is already initialized. Nothing to do.
+2024-10-04 08:59:04,894 : DEBUG : ModalContext :  : ColumnHeaderExtractorNodeFactory : Query : 4:84 : Factory is already initialized. Nothing to do.
+2024-10-04 08:59:04,899 : DEBUG : ModalContext :  : TableToVariable3NodeFactory : Query : 4:84 : Factory is already initialized. Nothing to do.
+2024-10-04 08:59:04,902 : DEBUG : ModalContext :  : WorkflowManager : Query : 4:84 : Added new connection from node 4:84:0:63(1) to node 4:84:0:15(1)
+2024-10-04 08:59:04,902 : DEBUG : ModalContext :  : WorkflowManager : Query : 4:84 : Added new connection from node 4:84:0:63(2) to node 4:84:0:15(0)
+2024-10-04 08:59:04,903 : DEBUG : ModalContext :  : WorkflowManager : Query : 4:84 : Added new connection from node 4:84:0:15(1) to node 4:84:0:62(1)
+2024-10-04 08:59:04,903 : DEBUG : ModalContext :  : WorkflowManager : Query : 4:84 : Added new connection from node 4:84:0:66(1) to node 4:84:0:67(1)
+2024-10-04 08:59:04,903 : DEBUG : ModalContext :  : WorkflowManager : Query : 4:84 : Added new connection from node 4:84:0:67(1) to node 4:84:0:65(2)
+2024-10-04 08:59:04,904 : DEBUG : ModalContext :  : WorkflowManager : Query : 4:84 : Added new connection from node 4:84:0:15(1) to node 4:84:0:66(1)
+2024-10-04 08:59:04,904 : DEBUG : ModalContext :  : WorkflowManager : Query : 4:84 : Added new connection from node 4:84:0:62(1) to node 4:84:0:65(1)
+2024-10-04 10:00:44,929 : DEBUG : main :  : VirtualSubNodeOutputNodeModel : Component Output : 4:84:0:65 : Removing all (0) views from model.
+2024-10-04 10:00:44,929 : DEBUG : main :  : Node : Component Output : 4:84:0:65 : clean output ports.
+2024-10-04 10:00:44,930 : DEBUG : main :  : TableToVariable3NodeModel : Table Row to Variable : 4:84:0:67 : Removing all (0) views from model.
+2024-10-04 10:00:44,930 : DEBUG : main :  : Node : Table Row to Variable : 4:84:0:67 : clean output ports.
+2024-10-04 10:00:44,930 : DEBUG : main :  : ColumnHeaderExtractorNodeModel : Column Name Extractor : 4:84:0:66 : Removing all (0) views from model.
+2024-10-04 10:00:44,930 : DEBUG : main :  : Node : Column Name Extractor : 4:84:0:66 : clean output ports.
+2024-10-04 10:00:44,934 : DEBUG : main :  : SamplingNodeModel : Row Sampling : 4:84:0:62 : Removing all (0) views from model.
+2024-10-04 10:00:44,934 : DEBUG : main :  : Node : Row Sampling : 4:84:0:62 : clean output ports.
+2024-10-04 10:00:44,935 : DEBUG : main :  : DBQueryReaderNodeModel : DB Query Reader : 4:84:0:15 : Removing all (0) views from model.
+2024-10-04 10:00:44,938 : DEBUG : main :  : Node : DB Query Reader : 4:84:0:15 : clean output ports.
+2024-10-04 10:00:44,938 : DEBUG : main :  : VirtualSubNodeInputNodeModel : Component Input : 4:84:0:63 : Removing all (0) views from model.
+2024-10-04 10:00:44,939 : DEBUG : main :  : Node : Component Input : 4:84:0:63 : clean output ports.
+2024-10-04 10:00:44,939 : DEBUG : main :  : VariableCreatorNodeModel : Variable Creator : 4:75 : Removing all (0) views from model.
+2024-10-04 10:00:44,939 : DEBUG : main :  : Node : Variable Creator : 4:75 : clean output ports.
+2024-10-04 12:17:42,251 : DEBUG : ModalContext :  : VariableCreatorNodeFactory : Query : 12 : Factory is already initialized. Nothing to do.
+2024-10-04 12:17:42,258 : DEBUG : ModalContext :  : Node : Variable Creator : 12:75 : Configure succeeded. (Variable Creator)
+2024-10-04 12:17:42,260 : DEBUG : ModalContext :  : DBQueryReaderNodeFactory : Query : 12:84 : Factory is already initialized. Nothing to do.
+2024-10-04 12:17:42,261 : DEBUG : ModalContext :  : SamplingNodeFactory : Query : 12:84 : Factory is already initialized. Nothing to do.
+2024-10-04 12:17:42,264 : DEBUG : ModalContext :  : ColumnHeaderExtractorNodeFactory : Query : 12:84 : Factory is already initialized. Nothing to do.
+2024-10-04 12:17:42,266 : DEBUG : ModalContext :  : TableToVariable3NodeFactory : Query : 12:84 : Factory is already initialized. Nothing to do.
+2024-10-04 12:17:42,267 : DEBUG : ModalContext :  : WorkflowManager : Query : 12:84 : Added new connection from node 12:84:0:63(1) to node 12:84:0:15(1)
+2024-10-04 12:17:42,267 : DEBUG : ModalContext :  : WorkflowManager : Query : 12:84 : Added new connection from node 12:84:0:63(2) to node 12:84:0:15(0)
+2024-10-04 12:17:42,267 : DEBUG : ModalContext :  : WorkflowManager : Query : 12:84 : Added new connection from node 12:84:0:15(1) to node 12:84:0:62(1)
+2024-10-04 12:17:42,267 : DEBUG : ModalContext :  : WorkflowManager : Query : 12:84 : Added new connection from node 12:84:0:66(1) to node 12:84:0:67(1)
+2024-10-04 12:17:42,267 : DEBUG : ModalContext :  : WorkflowManager : Query : 12:84 : Added new connection from node 12:84:0:67(1) to node 12:84:0:65(2)
+2024-10-04 12:17:42,267 : DEBUG : ModalContext :  : WorkflowManager : Query : 12:84 : Added new connection from node 12:84:0:15(1) to node 12:84:0:66(1)
+2024-10-04 12:17:42,267 : DEBUG : ModalContext :  : WorkflowManager : Query : 12:84 : Added new connection from node 12:84:0:62(1) to node 12:84:0:65(1)
+2024-10-04 12:17:47,219 : DEBUG : main :  : VirtualSubNodeOutputNodeModel : Component Output : 12:84:0:65 : Removing all (0) views from model.
+2024-10-04 12:17:47,220 : DEBUG : main :  : Node : Component Output : 12:84:0:65 : clean output ports.
+2024-10-04 12:17:47,220 : DEBUG : main :  : TableToVariable3NodeModel : Table Row to Variable : 12:84:0:67 : Removing all (0) views from model.
+2024-10-04 12:17:47,220 : DEBUG : main :  : Node : Table Row to Variable : 12:84:0:67 : clean output ports.
+2024-10-04 12:17:47,220 : DEBUG : main :  : ColumnHeaderExtractorNodeModel : Column Name Extractor : 12:84:0:66 : Removing all (0) views from model.
+2024-10-04 12:17:47,220 : DEBUG : main :  : Node : Column Name Extractor : 12:84:0:66 : clean output ports.
+2024-10-04 12:17:47,220 : DEBUG : main :  : SamplingNodeModel : Row Sampling : 12:84:0:62 : Removing all (0) views from model.
+2024-10-04 12:17:47,220 : DEBUG : main :  : Node : Row Sampling : 12:84:0:62 : clean output ports.
+2024-10-04 12:17:47,220 : DEBUG : main :  : DBQueryReaderNodeModel : DB Query Reader : 12:84:0:15 : Removing all (0) views from model.
+2024-10-04 12:17:47,220 : DEBUG : main :  : Node : DB Query Reader : 12:84:0:15 : clean output ports.
+2024-10-04 12:17:47,220 : DEBUG : main :  : VirtualSubNodeInputNodeModel : Component Input : 12:84:0:63 : Removing all (0) views from model.
+2024-10-04 12:17:47,220 : DEBUG : main :  : Node : Component Input : 12:84:0:63 : clean output ports.
+2024-10-04 12:17:47,220 : DEBUG : main :  : VariableCreatorNodeModel : Variable Creator : 12:75 : Removing all (0) views from model.
+2024-10-04 12:17:47,221 : DEBUG : main :  : Node : Variable Creator : 12:75 : clean output ports.
+2024-10-04 14:06:00,244 : DEBUG : ModalContext :  : VariableCreatorNodeFactory : Query : 12 : Factory is already initialized. Nothing to do.
+2024-10-04 14:06:00,249 : DEBUG : ModalContext :  : Node : Variable Creator : 12:75 : Configure succeeded. (Variable Creator)
+2024-10-04 14:06:00,251 : DEBUG : ModalContext :  : DBQueryReaderNodeFactory : Query : 12:84 : Factory is already initialized. Nothing to do.
+2024-10-04 14:06:00,252 : DEBUG : ModalContext :  : SamplingNodeFactory : Query : 12:84 : Factory is already initialized. Nothing to do.
+2024-10-04 14:06:00,256 : DEBUG : ModalContext :  : ColumnHeaderExtractorNodeFactory : Query : 12:84 : Factory is already initialized. Nothing to do.
+2024-10-04 14:06:00,258 : DEBUG : ModalContext :  : TableToVariable3NodeFactory : Query : 12:84 : Factory is already initialized. Nothing to do.
+2024-10-04 14:06:00,258 : DEBUG : ModalContext :  : WorkflowManager : Query : 12:84 : Added new connection from node 12:84:0:63(1) to node 12:84:0:15(1)
+2024-10-04 14:06:00,258 : DEBUG : ModalContext :  : WorkflowManager : Query : 12:84 : Added new connection from node 12:84:0:63(2) to node 12:84:0:15(0)
+2024-10-04 14:06:00,258 : DEBUG : ModalContext :  : WorkflowManager : Query : 12:84 : Added new connection from node 12:84:0:15(1) to node 12:84:0:62(1)
+2024-10-04 14:06:00,259 : DEBUG : ModalContext :  : WorkflowManager : Query : 12:84 : Added new connection from node 12:84:0:66(1) to node 12:84:0:67(1)
+2024-10-04 14:06:00,259 : DEBUG : ModalContext :  : WorkflowManager : Query : 12:84 : Added new connection from node 12:84:0:67(1) to node 12:84:0:65(2)
+2024-10-04 14:06:00,259 : DEBUG : ModalContext :  : WorkflowManager : Query : 12:84 : Added new connection from node 12:84:0:15(1) to node 12:84:0:66(1)
+2024-10-04 14:06:00,259 : DEBUG : ModalContext :  : WorkflowManager : Query : 12:84 : Added new connection from node 12:84:0:62(1) to node 12:84:0:65(1)
+2024-10-04 14:06:04,590 : DEBUG : comm-pool-thread-88 :  : VirtualSubNodeOutputNodeModel : Component Output : 12:84:0:65 : Removing all (0) views from model.
+2024-10-04 14:06:04,591 : DEBUG : comm-pool-thread-88 :  : Node : Component Output : 12:84:0:65 : clean output ports.
+2024-10-04 14:06:04,591 : DEBUG : comm-pool-thread-88 :  : TableToVariable3NodeModel : Table Row to Variable : 12:84:0:67 : Removing all (0) views from model.
+2024-10-04 14:06:04,591 : DEBUG : comm-pool-thread-88 :  : Node : Table Row to Variable : 12:84:0:67 : clean output ports.
+2024-10-04 14:06:04,591 : DEBUG : comm-pool-thread-88 :  : ColumnHeaderExtractorNodeModel : Column Name Extractor : 12:84:0:66 : Removing all (0) views from model.
+2024-10-04 14:06:04,591 : DEBUG : comm-pool-thread-88 :  : Node : Column Name Extractor : 12:84:0:66 : clean output ports.
+2024-10-04 14:06:04,591 : DEBUG : comm-pool-thread-88 :  : SamplingNodeModel : Row Sampling : 12:84:0:62 : Removing all (0) views from model.
+2024-10-04 14:06:04,591 : DEBUG : comm-pool-thread-88 :  : Node : Row Sampling : 12:84:0:62 : clean output ports.
+2024-10-04 14:06:04,592 : DEBUG : comm-pool-thread-88 :  : DBQueryReaderNodeModel : DB Query Reader : 12:84:0:15 : Removing all (0) views from model.
+2024-10-04 14:06:04,592 : DEBUG : comm-pool-thread-88 :  : Node : DB Query Reader : 12:84:0:15 : clean output ports.
+2024-10-04 14:06:04,592 : DEBUG : comm-pool-thread-88 :  : VirtualSubNodeInputNodeModel : Component Input : 12:84:0:63 : Removing all (0) views from model.
+2024-10-04 14:06:04,592 : DEBUG : comm-pool-thread-88 :  : Node : Component Input : 12:84:0:63 : clean output ports.
+2024-10-04 14:06:51,311 : DEBUG : comm-pool-thread-86 :  : DBQueryReaderNodeFactory : Query : 12:208 : Factory is already initialized. Nothing to do.
+2024-10-04 14:06:51,315 : DEBUG : comm-pool-thread-86 :  : SamplingNodeFactory : Query : 12:208 : Factory is already initialized. Nothing to do.
+2024-10-04 14:06:51,326 : DEBUG : comm-pool-thread-86 :  : ColumnHeaderExtractorNodeFactory : Query : 12:208 : Factory is already initialized. Nothing to do.
+2024-10-04 14:06:51,329 : DEBUG : comm-pool-thread-86 :  : TableToVariable3NodeFactory : Query : 12:208 : Factory is already initialized. Nothing to do.
+2024-10-04 14:06:51,332 : DEBUG : comm-pool-thread-86 :  : WorkflowManager : Query : 12:208 : Added new connection from node 12:208:0:63(1) to node 12:208:0:15(1)
+2024-10-04 14:06:51,332 : DEBUG : comm-pool-thread-86 :  : WorkflowManager : Query : 12:208 : Added new connection from node 12:208:0:63(2) to node 12:208:0:15(0)
+2024-10-04 14:06:51,332 : DEBUG : comm-pool-thread-86 :  : WorkflowManager : Query : 12:208 : Added new connection from node 12:208:0:15(1) to node 12:208:0:62(1)
+2024-10-04 14:06:51,332 : DEBUG : comm-pool-thread-86 :  : WorkflowManager : Query : 12:208 : Added new connection from node 12:208:0:66(1) to node 12:208:0:67(1)
+2024-10-04 14:06:51,332 : DEBUG : comm-pool-thread-86 :  : WorkflowManager : Query : 12:208 : Added new connection from node 12:208:0:67(1) to node 12:208:0:65(2)
+2024-10-04 14:06:51,332 : DEBUG : comm-pool-thread-86 :  : WorkflowManager : Query : 12:208 : Added new connection from node 12:208:0:15(1) to node 12:208:0:66(1)
+2024-10-04 14:06:51,332 : DEBUG : comm-pool-thread-86 :  : WorkflowManager : Query : 12:208 : Added new connection from node 12:208:0:62(1) to node 12:208:0:65(1)
+2024-10-04 14:08:03,996 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Query : 12:208 : Created node directory "/home/jlizama/knime-workspace/TFG/Query/Query (#208)"
+2024-10-04 14:08:03,999 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : DB Query Reader : 12:208:0:15 : Created node directory "/home/jlizama/knime-workspace/TFG/Query/Query (#208)/DB Query Reader (#15)"
+2024-10-04 14:08:04,000 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Row Sampling : 12:208:0:62 : Created node directory "/home/jlizama/knime-workspace/TFG/Query/Query (#208)/Row Sampling (#62)"
+2024-10-04 14:08:04,001 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Component Input : 12:208:0:63 : Created node directory "/home/jlizama/knime-workspace/TFG/Query/Query (#208)/Component Input (#63)"
+2024-10-04 14:08:04,003 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Component Output : 12:208:0:65 : Created node directory "/home/jlizama/knime-workspace/TFG/Query/Query (#208)/Component Output (#65)"
+2024-10-04 14:08:04,004 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Column Name Extractor : 12:208:0:66 : Created node directory "/home/jlizama/knime-workspace/TFG/Query/Query (#208)/Column Name Extractor (#66)"
+2024-10-04 14:08:04,005 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Table Row to Variable : 12:208:0:67 : Created node directory "/home/jlizama/knime-workspace/TFG/Query/Query (#208)/Table Row to Variable (#67)"
+2024-10-04 14:10:26,041 : DEBUG : main :  : VirtualSubNodeOutputNodeModel : Component Output : 12:208:0:65 : Removing all (0) views from model.
+2024-10-04 14:10:26,041 : DEBUG : main :  : Node : Component Output : 12:208:0:65 : clean output ports.
+2024-10-04 14:10:26,042 : DEBUG : main :  : TableToVariable3NodeModel : Table Row to Variable : 12:208:0:67 : Removing all (0) views from model.
+2024-10-04 14:10:26,042 : DEBUG : main :  : Node : Table Row to Variable : 12:208:0:67 : clean output ports.
+2024-10-04 14:10:26,042 : DEBUG : main :  : ColumnHeaderExtractorNodeModel : Column Name Extractor : 12:208:0:66 : Removing all (0) views from model.
+2024-10-04 14:10:26,042 : DEBUG : main :  : Node : Column Name Extractor : 12:208:0:66 : clean output ports.
+2024-10-04 14:10:26,042 : DEBUG : main :  : SamplingNodeModel : Row Sampling : 12:208:0:62 : Removing all (0) views from model.
+2024-10-04 14:10:26,042 : DEBUG : main :  : Node : Row Sampling : 12:208:0:62 : clean output ports.
+2024-10-04 14:10:26,042 : DEBUG : main :  : DBQueryReaderNodeModel : DB Query Reader : 12:208:0:15 : Removing all (0) views from model.
+2024-10-04 14:10:26,042 : DEBUG : main :  : Node : DB Query Reader : 12:208:0:15 : clean output ports.
+2024-10-04 14:10:26,042 : DEBUG : main :  : VirtualSubNodeInputNodeModel : Component Input : 12:208:0:63 : Removing all (0) views from model.
+2024-10-04 14:10:26,042 : DEBUG : main :  : Node : Component Input : 12:208:0:63 : clean output ports.
+2024-10-04 14:10:26,043 : DEBUG : main :  : VariableCreatorNodeModel : Variable Creator : 12:75 : Removing all (0) views from model.
+2024-10-04 14:10:26,043 : DEBUG : main :  : Node : Variable Creator : 12:75 : clean output ports.

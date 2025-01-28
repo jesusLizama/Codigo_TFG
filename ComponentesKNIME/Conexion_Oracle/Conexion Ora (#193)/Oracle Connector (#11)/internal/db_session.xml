@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="db_session">
+    <config key="Session Info">
+        <entry key="version" type="xint" value="5"/>
+        <entry key="sessionID" type="xstring" value="4bc2b905-05ed-41ca-9789-1b120c660a6d"/>
+        <entry key="dbTypeId" type="xstring" value="oracle"/>
+        <entry key="dialectId" type="xstring" value="oracle"/>
+        <entry key="dbURL" type="xstring" value="jdbc:oracle:thin:@bev-wsrachce-scan.salud.psis:47050/hcej2ee_gn1_hce.salud.psis"/>
+        <entry key="authenticationType" type="xstring" value="USER_PWD"/>
+        <entry key="dbUser" type="xstring" value="BIGAN_USR"/>
+        <entry key="dbPassword" type="xpassword" value="02CAAAAGMq_QxveL1vZ0EBj0kVb6PsX6kbeU6Qew=="/>
+        <entry key="host" type="xstring" value="bev-wsrachce-scan.salud.psis"/>
+    </config>
+    <config key="Driver Definition">
+        <entry key="driverId" type="xstring" value="Oracle_ID"/>
+        <entry key="driverName" type="xstring" value="Oracle"/>
+        <entry key="driverVersion" type="xstring" value="23.5.0"/>
+        <entry key="driverClass" type="xstring" value="oracle.jdbc.OracleDriver"/>
+        <entry key="driverDescription" type="xstring" value=""/>
+        <entry key="driverOrigin" type="xstring" value="USER"/>
+        <entry key="deprecated" type="xboolean" value="false"/>
+    </config>
+    <config key="Attributes">
+        <config key="java.lang.Boolean">
+            <entry key="knime.db.connection.restore" type="xboolean" value="true"/>
+            <entry key="knime.db.connection.reconnect" type="xboolean" value="true"/>
+        </config>
+        <config key="java.lang.Integer">
+            <entry key="knime.db.connection.idle.timeout" type="xint" value="10"/>
+            <entry key="knime.db.connection.reconnect.timeout" type="xint" value="10"/>
+        </config>
+    </config>
+</config>

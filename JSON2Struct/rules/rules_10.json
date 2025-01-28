@@ -1,0 +1,47 @@
+{
+    "id": 10,
+    "level": "plantilla",
+    "child_rules": [
+        {
+            "id": 61,
+            "level": "arquetipo",
+            "rule_set": [
+                {
+                    "target_table": "drug_exposure",
+                    "condition": true,
+                    "comentario" : "En queue habrá que especificar si vamos por bbdd o por tabla. Es flexible",
+                    "queue": "omop",
+                    "field_map": [
+                        "t.drug_exposure_id = parseInt(e.ID_INSTANCIA_ARQ,10)",
+                        "t.person_id = parseInt(d.ID_INSTANCIA_PLANT,10)",
+                        "t.drug_concept_id = parseInt(d.ID_INSTANCIA_PLANT,10) ",
+                        "t.drug_exposure_start_date = e.content.id(161).content.FECHA_REFERENCIA",
+                        "t.drug_exposure_end_date = e.content.id(161).content.FECHA_REFERENCIA",
+                        "t.drug_type_concept_id = parseInt(d.ID_INSTANCIA_PLANT,10)"
+                    ]
+                }
+            ],
+            "child_rules": [
+                {
+                    "id": 161,
+                    "level": "dato_basico",
+                    "rule_set": [
+                        {
+                            "target_table": "condition_occurrence",
+                            "condition": "e.ESTADO == 'C'",
+                            "comentario" : "En queue habrá que especificar si vamos por bbdd o por tabla. Es flexible",
+                            "queue": "omop",
+                            "field_map": [
+                                "t.condition_occurrence_source_id = e.ID_INSTANCIA_DATO",
+                                "t.person_id = d.ID_INSTANCIA_PLANT",
+                                "t.condition_concept_id =e.content.ID_CATALOGO ",
+                                "t.condition_start_date = e.content.FECHA_REFERENCIA",
+                                "t.condition_type_concept_id = e.content.ID_CATALOGO "
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

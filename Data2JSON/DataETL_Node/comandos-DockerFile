@@ -1,0 +1,5 @@
+docker build -t nexus.bigan.eu:8443/bigan/node:1.0.0 .
+
+docker run --name data2json -v /data/ehr2struct/Data2JSON/DataETL_Node/:/usr/src/app nexus.bigan.eu:8443/bigan/node:1.0.0
+
+docker start data2json

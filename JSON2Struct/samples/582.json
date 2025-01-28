@@ -1,0 +1,571 @@
+{
+    "NOMBRE": "Vacunas - Nueva vacunación",
+    "id": 582,
+    "level": "PLANTILLA",
+    "ID_INSTANCIA_PLANT": "51622343",
+    "ID_PACIENTE": "AR601240242N",
+    "SOURCE_CD": "None",
+    "SOURCE_CONCEPT_ID": null,
+    "CONCEPT_ID": null,
+    "content": [
+        {
+            "NOMBRE": "vacunas-identificadores",
+            "level": "ARQUETIPO",
+            "id": 1342,
+            "ID_INSTANCIA_ARQ": "43365416",
+            "SOURCE_CD": "None",
+            "SOURCE_CONCEPT_ID": null,
+            "CONCEPT_ID": null,
+            "content": [
+                {
+                    "NOMBRE": "vacunas-fecha de registro",
+                    "level":"DATO",
+                    "id": 5201,
+                    "ESTADO": "C",
+                    "ID_INSTANCIA_DATO": "118547870",
+                    "SOURCE_CD": null,
+                    "SOURCE_CONCEPT_ID": null,
+                    "CONCEPT_ID": null,
+                    "content": {
+                        "PCIA": 242,
+                        "ID_INSTANCIA_DATO": "118547870",
+                        "FECHA_REFERENCIA": "2024-07-12T11:24:21.000Z",
+                        "VALOR": "2024-07-12T00:00:00.000Z",
+                        "NOTAS": null,
+                        "SIST_ORIGEN": null,
+                        "ID_SISTORIGEN": null
+                    }
+                },
+                {
+                    "NOMBRE": "vacunas-centro",
+                    "level":"DATO",
+                    "id": 5202,
+                    "ESTADO": "C",
+                    "ID_INSTANCIA_DATO": "118547871",
+                    "SOURCE_CD": null,
+                    "SOURCE_CONCEPT_ID": null,
+                    "CONCEPT_ID": null,
+                    "content": {
+                        "PCIA": 242,
+                        "ID_INSTANCIA_DATO": "118547871",
+                        "FECHA_REFERENCIA": "2024-07-12T11:24:21.000Z",
+                        "ID_LISTA": 95,
+                        "VALOR": 603706,
+                        "NOTAS": null,
+                        "SIST_ORIGEN": null,
+                        "ID_SISTORIGEN": null,
+                        "NOMBRE_LISTA": "Vacunas - centros",
+                        "DESCRIPCION_VALOR": "C.S. ILLUECA"
+                    }
+                },
+                {
+                    "NOMBRE": "vacunas-vacunacion externa",
+                    "level":"DATO",
+                    "id": 5232,
+                    "ESTADO": "C",
+                    "ID_INSTANCIA_DATO": "118547872",
+                    "SOURCE_CD": null,
+                    "SOURCE_CONCEPT_ID": null,
+                    "CONCEPT_ID": null,
+                    "content": {
+                        "PCIA": 242,
+                        "ID_INSTANCIA_DATO": "118547872",
+                        "FECHA_REFERENCIA": "2024-07-12T11:24:21.000Z",
+                        "ID_LISTA": 356,
+                        "VALOR": 2,
+                        "NOTAS": null,
+                        "SIST_ORIGEN": null,
+                        "ID_SISTORIGEN": null,
+                        "NOMBRE_LISTA": "ListaGenerica: Si/No (Valor defecto No)",
+                        "DESCRIPCION_VALOR": "NO"
+                    }
+                },
+                {
+                    "NOMBRE": "vacunas-rechazo a vacunacion ",
+                    "level":"DATO",
+                    "id": 5211,
+                    "ESTADO": "C",
+                    "ID_INSTANCIA_DATO": "118547873",
+                    "SOURCE_CD": null,
+                    "SOURCE_CONCEPT_ID": null,
+                    "CONCEPT_ID": null,
+                    "content": {
+                        "PCIA": 242,
+                        "ID_INSTANCIA_DATO": "118547873",
+                        "FECHA_REFERENCIA": "2024-07-12T11:24:21.000Z",
+                        "ID_LISTA": 94,
+                        "VALOR": 0,
+                        "NOTAS": null,
+                        "SIST_ORIGEN": null,
+                        "ID_SISTORIGEN": null,
+                        "NOMBRE_LISTA": "Vacunas - rechazo a vacunacion",
+                        "DESCRIPCION_VALOR": " NO"
+                    }
+                }
+            ]
+        },
+        {
+            "NOMBRE": "vacunas-rechazo a vacunacion",
+            "level": "ARQUETIPO",
+            "id": 1344,
+            "ID_INSTANCIA_ARQ": "43365417",
+            "SOURCE_CD": "None",
+            "SOURCE_CONCEPT_ID": null,
+            "CONCEPT_ID": null,
+            "content": []
+        },
+        {
+            "NOMBRE": "vacunas-datos de la vacuna",
+            "level": "ARQUETIPO",
+            "id": 1341,
+            "ID_INSTANCIA_ARQ": "43365418",
+            "SOURCE_CD": "None",
+            "SOURCE_CONCEPT_ID": 0,
+            "CONCEPT_ID": null,
+            "content": [
+                {
+                    "NOMBRE": "vacunas-tipo vacuna",
+                    "level":"DATO",
+                    "id": 5200,
+                    "ESTADO": "C",
+                    "ID_INSTANCIA_DATO": "118547874",
+                    "SOURCE_CD": null,
+                    "SOURCE_CONCEPT_ID": null,
+                    "CONCEPT_ID": 1234,
+                    "content": {
+                        "PCIA": "242",
+                        "ID_INSTANCIA_DATO": "118547874",
+                        "FECHA_REFERENCIA": "2024-07-12T00:00:00.000Z",
+                        "ID_CATALOGO": "27",
+                        "ID_CODIGO": "HEXA",
+                        "DESCRIPCION": "POLIO+DTPA+HIB+HBP (HEXA)",
+                        "SIST_ORIGEN": null,
+                        "ID_SISTORIGEN": null,
+                        "FECHA_ALTA": null,
+                        "OBSERVACIONES": null
+                    }
+                },
+                {
+                    "NOMBRE": "Vacunas - Codigo laboratorio (oculto)",
+                    "level":"DATO",
+                    "id": 50007402,
+                    "ESTADO": "C",
+                    "ID_INSTANCIA_DATO": "118547875",
+                    "SOURCE_CD": null,
+                    "SOURCE_CONCEPT_ID": null,
+                    "CONCEPT_ID": null,
+                    "content": {
+                        "PCIA": 242,
+                        "ID_INSTANCIA_DATO": "118547875",
+                        "FECHA_REFERENCIA": "2024-07-12T11:24:21.000Z",
+                        "VALOR": "-1",
+                        "NOTAS": null,
+                        "SIST_ORIGEN": null,
+                        "ID_SISTORIGEN": null
+                    }
+                },
+                {
+                    "NOMBRE": "vacunas-laboratorio",
+                    "level":"DATO",
+                    "id": 5229,
+                    "ESTADO": "C",
+                    "ID_INSTANCIA_DATO": "118547876",
+                    "SOURCE_CD": null,
+                    "SOURCE_CONCEPT_ID": null,
+                    "CONCEPT_ID": null,
+                    "content": {
+                        "PCIA": 242,
+                        "ID_INSTANCIA_DATO": "118547876",
+                        "FECHA_REFERENCIA": "2024-07-12T11:24:21.000Z",
+                        "VALOR": "zxvxczfsdzf",
+                        "NOTAS": null,
+                        "SIST_ORIGEN": null,
+                        "ID_SISTORIGEN": null
+                    }
+                },
+                {
+                    "NOMBRE": "vacunas - Lote oculto",
+                    "level":"DATO",
+                    "id": 5254,
+                    "ESTADO": "C",
+                    "ID_INSTANCIA_DATO": "118547877",
+                    "SOURCE_CD": null,
+                    "SOURCE_CONCEPT_ID": null,
+                    "CONCEPT_ID": null,
+                    "content": {
+                        "PCIA": 242,
+                        "ID_INSTANCIA_DATO": "118547877",
+                        "FECHA_REFERENCIA": "2024-07-12T11:24:21.000Z",
+                        "VALOR": "555555",
+                        "NOTAS": null,
+                        "SIST_ORIGEN": null,
+                        "ID_SISTORIGEN": null
+                    }
+                },
+                {
+                    "NOMBRE": "Vacunas - Grupos de riesgo (multiple)",
+                    "level":"DATO",
+                    "id": 50007400,
+                    "ESTADO": "C",
+                    "ID_INSTANCIA_DATO": "118547878",
+                    "SOURCE_CD": null,
+                    "SOURCE_CONCEPT_ID": null,
+                    "CONCEPT_ID": null,
+                    "content": {
+                        "PCIA": 242,
+                        "ID_INSTANCIA_DATO": "118547878",
+                        "FECHA_REFERENCIA": "2024-07-12T11:24:21.000Z",
+                        "ID_LISTA": 847,
+                        "VALOR": 1,
+                        "NOTAS": null,
+                        "SIST_ORIGEN": null,
+                        "ID_SISTORIGEN": null,
+                        "NOMBRE_LISTA": "Vacunas - Grupo de riesgo (multiple)",
+                        "DESCRIPCION_VALOR": "Tratamiento inmunosupresor / Inmunomoduladores"
+                    }
+                },
+                {
+                    "NOMBRE": "Vacunas - Grupos de riesgo (multiple)",
+                    "level":"DATO",
+                    "id": 50007400,
+                    "ESTADO": "C",
+                    "ID_INSTANCIA_DATO": "118547879",
+                    "SOURCE_CD": null,
+                    "SOURCE_CONCEPT_ID": null,
+                    "CONCEPT_ID": null,
+                    "content": {
+                        "PCIA": 242,
+                        "ID_INSTANCIA_DATO": "118547879",
+                        "FECHA_REFERENCIA": "2024-07-12T11:24:21.000Z",
+                        "ID_LISTA": 847,
+                        "VALOR": 6,
+                        "NOTAS": null,
+                        "SIST_ORIGEN": null,
+                        "ID_SISTORIGEN": null,
+                        "NOMBRE_LISTA": "Vacunas - Grupo de riesgo (multiple)",
+                        "DESCRIPCION_VALOR": "Trasplante de progenitores hematopoyéticos"
+                    }
+                },
+                {
+                    "NOMBRE": "Vacunas - Localización",
+                    "level":"DATO",
+                    "id": 50007500,
+                    "ESTADO": "C",
+                    "ID_INSTANCIA_DATO": "118547880",
+                    "SOURCE_CD": null,
+                    "SOURCE_CONCEPT_ID": null,
+                    "CONCEPT_ID": null,
+                    "content": {
+                        "PCIA": 242,
+                        "ID_INSTANCIA_DATO": "118547880",
+                        "FECHA_REFERENCIA": "2024-07-12T11:24:21.000Z",
+                        "ID_LISTA": 104550,
+                        "VALOR": -999,
+                        "NOTAS": null,
+                        "SIST_ORIGEN": null,
+                        "ID_SISTORIGEN": null,
+                        "NOMBRE_LISTA": "Vacunas - Localizacion",
+                        "DESCRIPCION_VALOR": "Seleccione una opción"
+                    }
+                },
+                {
+                    "NOMBRE": "Vacunas - Via administracion",
+                    "level":"DATO",
+                    "id": 50009300,
+                    "ESTADO": "C",
+                    "ID_INSTANCIA_DATO": "118547881",
+                    "SOURCE_CD": null,
+                    "SOURCE_CONCEPT_ID": null,
+                    "CONCEPT_ID": null,
+                    "content": {
+                        "PCIA": 242,
+                        "ID_INSTANCIA_DATO": "118547881",
+                        "FECHA_REFERENCIA": "2024-07-12T11:24:21.000Z",
+                        "ID_LISTA": 105300,
+                        "VALOR": -999,
+                        "NOTAS": null,
+                        "SIST_ORIGEN": null,
+                        "ID_SISTORIGEN": null,
+                        "NOMBRE_LISTA": "Vacunas - Via Administracion",
+                        "DESCRIPCION_VALOR": " "
+                    }
+                },
+                {
+                    "NOMBRE": "Vacunas - Activar Buzon HL7",
+                    "level":"DATO",
+                    "id": 50007550,
+                    "ESTADO": "C",
+                    "ID_INSTANCIA_DATO": "118547882",
+                    "SOURCE_CD": null,
+                    "SOURCE_CONCEPT_ID": null,
+                    "CONCEPT_ID": null,
+                    "content": {
+                        "PCIA": 242,
+                        "ID_INSTANCIA_DATO": "118547882",
+                        "FECHA_REFERENCIA": "2024-07-12T11:24:21.000Z",
+                        "ID_LISTA": 100612,
+                        "VALOR": 1,
+                        "NOTAS": null,
+                        "SIST_ORIGEN": null,
+                        "ID_SISTORIGEN": null,
+                        "NOMBRE_LISTA": "ListaGenerica: Si/No (Valor defecto Si)",
+                        "DESCRIPCION_VALOR": "SI"
+                    }
+                }
+            ]
+        },
+        {
+            "NOMBRE": "vacunas-enfermedades",
+            "level": "ARQUETIPO",
+            "id": 1343,
+            "ID_INSTANCIA_ARQ": "43365419",
+            "SOURCE_CD": "None",
+            "SOURCE_CONCEPT_ID": null,
+            "CONCEPT_ID": null,
+            "content": [
+                {
+                    "NOMBRE": "vacunas-enfermedad ",
+                    "level":"DATO",
+                    "id": 5208,
+                    "ESTADO": "C",
+                    "ID_INSTANCIA_DATO": "118547883",
+                    "SOURCE_CD": null,
+                    "SOURCE_CONCEPT_ID": null,
+                    "CONCEPT_ID": null,
+                    "content": {
+                        "PCIA": 242,
+                        "ID_INSTANCIA_DATO": "118547883",
+                        "FECHA_REFERENCIA": "2024-07-12T11:24:21.000Z",
+                        "ID_LISTA": 93,
+                        "VALOR": 3,
+                        "NOTAS": null,
+                        "SIST_ORIGEN": null,
+                        "ID_SISTORIGEN": null,
+                        "NOMBRE_LISTA": "Vacunas - enfermedades",
+                        "DESCRIPCION_VALOR": "DIFTERIA TÉTANOS PERTUSI"
+                    }
+                },
+                {
+                    "NOMBRE": "vacunas-enfermedad ",
+                    "level":"DATO",
+                    "id": 5208,
+                    "ESTADO": "C",
+                    "ID_INSTANCIA_DATO": "118547884",
+                    "SOURCE_CD": null,
+                    "SOURCE_CONCEPT_ID": null,
+                    "CONCEPT_ID": null,
+                    "content": {
+                        "PCIA": 242,
+                        "ID_INSTANCIA_DATO": "118547884",
+                        "FECHA_REFERENCIA": "2024-07-12T11:24:21.000Z",
+                        "ID_LISTA": 93,
+                        "VALOR": 7,
+                        "NOTAS": null,
+                        "SIST_ORIGEN": null,
+                        "ID_SISTORIGEN": null,
+                        "NOMBRE_LISTA": "Vacunas - enfermedades",
+                        "DESCRIPCION_VALOR": "HEPATITIS B"
+                    }
+                },
+                {
+                    "NOMBRE": "vacunas-enfermedad ",
+                    "level":"DATO",
+                    "id": 5208,
+                    "ESTADO": "C",
+                    "ID_INSTANCIA_DATO": "118547885",
+                    "SOURCE_CD": null,
+                    "SOURCE_CONCEPT_ID": null,
+                    "CONCEPT_ID": null,
+                    "content": {
+                        "PCIA": 242,
+                        "ID_INSTANCIA_DATO": "118547885",
+                        "FECHA_REFERENCIA": "2024-07-12T11:24:21.000Z",
+                        "ID_LISTA": 93,
+                        "VALOR": 8,
+                        "NOTAS": null,
+                        "SIST_ORIGEN": null,
+                        "ID_SISTORIGEN": null,
+                        "NOMBRE_LISTA": "Vacunas - enfermedades",
+                        "DESCRIPCION_VALOR": "HAEMOPHILUS INFLUENZAE TIPO B"
+                    }
+                },
+                {
+                    "NOMBRE": "vacunas-enfermedad ",
+                    "level":"DATO",
+                    "id": 5208,
+                    "ESTADO": "C",
+                    "ID_INSTANCIA_DATO": "118547886",
+                    "SOURCE_CD": null,
+                    "SOURCE_CONCEPT_ID": null,
+                    "CONCEPT_ID": null,
+                    "content": {
+                        "PCIA": 242,
+                        "ID_INSTANCIA_DATO": "118547886",
+                        "FECHA_REFERENCIA": "2024-07-12T11:24:21.000Z",
+                        "ID_LISTA": 93,
+                        "VALOR": 11,
+                        "NOTAS": null,
+                        "SIST_ORIGEN": null,
+                        "ID_SISTORIGEN": null,
+                        "NOMBRE_LISTA": "Vacunas - enfermedades",
+                        "DESCRIPCION_VALOR": "POLIO"
+                    }
+                },
+                {
+                    "NOMBRE": "Vacunas - Dosis Select",
+                    "level":"DATO",
+                    "id": 50007650,
+                    "ESTADO": "C",
+                    "ID_INSTANCIA_DATO": "118547887",
+                    "SOURCE_CD": null,
+                    "SOURCE_CONCEPT_ID": null,
+                    "CONCEPT_ID": null,
+                    "content": {
+                        "PCIA": 242,
+                        "ID_INSTANCIA_DATO": "118547887",
+                        "FECHA_REFERENCIA": "2024-07-12T11:24:21.000Z",
+                        "ID_LISTA": 104600,
+                        "VALOR": -999,
+                        "NOTAS": null,
+                        "SIST_ORIGEN": null,
+                        "ID_SISTORIGEN": null,
+                        "NOMBRE_LISTA": "Vacunas - Lista dosis",
+                        "DESCRIPCION_VALOR": " "
+                    }
+                },
+                {
+                    "NOMBRE": "Vacunas - Dosis Select",
+                    "level":"DATO",
+                    "id": 50007650,
+                    "ESTADO": "C",
+                    "ID_INSTANCIA_DATO": "118547888",
+                    "SOURCE_CD": null,
+                    "SOURCE_CONCEPT_ID": null,
+                    "CONCEPT_ID": null,
+                    "content": {
+                        "PCIA": 242,
+                        "ID_INSTANCIA_DATO": "118547888",
+                        "FECHA_REFERENCIA": "2024-07-12T11:24:21.000Z",
+                        "ID_LISTA": 104600,
+                        "VALOR": -999,
+                        "NOTAS": null,
+                        "SIST_ORIGEN": null,
+                        "ID_SISTORIGEN": null,
+                        "NOMBRE_LISTA": "Vacunas - Lista dosis",
+                        "DESCRIPCION_VALOR": " "
+                    }
+                },
+                {
+                    "NOMBRE": "Vacunas - Dosis Select",
+                    "level":"DATO",
+                    "id": 50007650,
+                    "ESTADO": "C",
+                    "ID_INSTANCIA_DATO": "118547889",
+                    "SOURCE_CD": null,
+                    "SOURCE_CONCEPT_ID": null,
+                    "CONCEPT_ID": null,
+                    "content": {
+                        "PCIA": 242,
+                        "ID_INSTANCIA_DATO": "118547889",
+                        "FECHA_REFERENCIA": "2024-07-12T11:24:21.000Z",
+                        "ID_LISTA": 104600,
+                        "VALOR": -999,
+                        "NOTAS": null,
+                        "SIST_ORIGEN": null,
+                        "ID_SISTORIGEN": null,
+                        "NOMBRE_LISTA": "Vacunas - Lista dosis",
+                        "DESCRIPCION_VALOR": " "
+                    }
+                },
+                {
+                    "NOMBRE": "Vacunas - Dosis Select",
+                    "level":"DATO",
+                    "id": 50007650,
+                    "ESTADO": "C",
+                    "ID_INSTANCIA_DATO": "118547890",
+                    "SOURCE_CD": null,
+                    "SOURCE_CONCEPT_ID": null,
+                    "CONCEPT_ID": null,
+                    "content": {
+                        "PCIA": 242,
+                        "ID_INSTANCIA_DATO": "118547890",
+                        "FECHA_REFERENCIA": "2024-07-12T11:24:21.000Z",
+                        "ID_LISTA": 104600,
+                        "VALOR": -999,
+                        "NOTAS": null,
+                        "SIST_ORIGEN": null,
+                        "ID_SISTORIGEN": null,
+                        "NOMBRE_LISTA": "Vacunas - Lista dosis",
+                        "DESCRIPCION_VALOR": " "
+                    }
+                },
+                {
+                    "NOMBRE": "vacunas-enfermedad tabla",
+                    "level":"DATO",
+                    "id": 5207,
+                    "ESTADO": "C",
+                    "ID_INSTANCIA_DATO": "118547891",
+                    "SOURCE_CD": null,
+                    "SOURCE_CONCEPT_ID": null,
+                    "CONCEPT_ID": null,
+                    "content": "P"
+                },
+                {
+                    "NOMBRE": "vacunas-enfermedad tabla",
+                    "level":"DATO",
+                    "id": 5207,
+                    "ESTADO": "C",
+                    "ID_INSTANCIA_DATO": "118547892",
+                    "SOURCE_CD": null,
+                    "SOURCE_CONCEPT_ID": null,
+                    "CONCEPT_ID": null,
+                    "content": "P"
+                },
+                {
+                    "NOMBRE": "vacunas-enfermedad tabla",
+                    "level":"DATO",
+                    "id": 5207,
+                    "ESTADO": "C",
+                    "ID_INSTANCIA_DATO": "118547893",
+                    "SOURCE_CD": null,
+                    "SOURCE_CONCEPT_ID": null,
+                    "CONCEPT_ID": null,
+                    "content": "P"
+                },
+                {
+                    "NOMBRE": "vacunas-enfermedad tabla",
+                    "level":"DATO",
+                    "id": 5207,
+                    "ESTADO": "C",
+                    "ID_INSTANCIA_DATO": "118547894",
+                    "SOURCE_CD": null,
+                    "SOURCE_CONCEPT_ID": null,
+                    "CONCEPT_ID": null,
+                    "content": "P"
+                },
+                {
+                    "NOMBRE": "vacunas-ciclo vacunacion correcto",
+                    "level":"DATO",
+                    "id": 5209,
+                    "ESTADO": "C",
+                    "ID_INSTANCIA_DATO": "118547895",
+                    "SOURCE_CD": null,
+                    "SOURCE_CONCEPT_ID": null,
+                    "CONCEPT_ID": null,
+                    "content": {
+                        "PCIA": 242,
+                        "ID_INSTANCIA_DATO": "118547895",
+                        "FECHA_REFERENCIA": "2024-07-12T11:24:21.000Z",
+                        "ID_LISTA": 100612,
+                        "VALOR": null,
+                        "NOTAS": null,
+                        "SIST_ORIGEN": null,
+                        "ID_SISTORIGEN": null,
+                        "NOMBRE_LISTA": "ListaGenerica: Si/No (Valor defecto Si)",
+                        "DESCRIPCION_VALOR": null
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "id": 582,
+    "level": "plantilla",
+    "rule_set": [
+        {
+            "queue": "omop",
+            "target_table": "observation",
+            "condition": true,
+            "field_map": [
+                "t.observation_id = Number(d.ID_INSTANCIA_PLANT)",
+                "t.person_id = e.ID_PACIENTE",
+                "t.observation_concept_id = Number(e.content.id(1341).content.id(5200).content.COD_NORMALIZADO)",
+                "t.observation_date = e.content.id(1342).content.id(5201).content.FECHA_REFERENCIA",
+                "t.observation_datetime = t.observation_date",
+                "t.observation_type_concept_id = 32823",
+                "t.observation_source_value = e.content.id(1341).content.id(5200).content.ID_CODIGO",
+                "t.observation_source_concept_id = e.content.id(1341).content.id(5200).SOURCE_CONCEPT_ID",
+                "t.provider_id = e.content.id(1342).content.id(5202).content.VALOR"
+            ]
+        }
+    ],
+    "child_rules": [
+        {
+            "id": 1341,
+            "level": "arquetipo",
+            "rule_set": [
+                {
+                    "queue": "omop",
+                    "target_table": "observation",
+                    "condition": true,
+                    "field_map": [
+                        "t.observation_id = Number(d.ID_INSTANCIA_PLANT)",
+                        "t.person_id = d.ID_PACIENTE",
+                        "t.observation_concept_id = Number(e.content.id(5200).content.COD_NORMALIZADO)",
+                        "t.observation_date = d.content.id(1342).content.id(5201).content.FECHA_REFERENCIA",
+                        "t.observation_datetime = t.observation_date",
+                        "t.observation_type_concept_id = 32823",
+                        "t.observation_source_value = e.content.id(5200).content.ID_CODIGO",
+                        "t.observation_source_concept_id = e.content.id(5200).SOURCE_CONCEPT_ID",
+                        "t.provider_id = d.content.id(1342).content.id(5202).content.VALOR"
+                    ]
+                }
+            ]
+        }       
+    ]
+}

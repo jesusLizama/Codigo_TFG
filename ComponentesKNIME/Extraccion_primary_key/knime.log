@@ -1,0 +1,53 @@
+2024-10-07 14:20:12,524 : DEBUG : comm-pool-thread-19 :  : Node : Variable Creator : 5:216 : Configure succeeded. (Variable Creator)
+2024-10-07 14:20:21,883 : DEBUG : comm-pool-thread-19 :  : TableToVariable3NodeModel : Table Row to Variable : 5:217 : Removing all (0) views from model.
+2024-10-07 14:20:21,883 : DEBUG : comm-pool-thread-19 :  : Node : Table Row to Variable : 5:217 : clean output ports.
+2024-10-07 14:20:21,884 : DEBUG : comm-pool-thread-19 :  : DBQueryReaderNodeModel : DB Query Reader : 5:215 : Removing all (0) views from model.
+2024-10-07 14:20:21,884 : DEBUG : comm-pool-thread-19 :  : Node : DB Query Reader : 5:215 : clean output ports.
+2024-10-07 14:20:27,504 : DEBUG : comm-pool-thread-19 :  : DBQueryReaderNodeModel : DB Query Reader : 5:218:215 : Removing all (0) views from model.
+2024-10-07 14:20:27,504 : DEBUG : comm-pool-thread-19 :  : Node : DB Query Reader : 5:218:215 : clean output ports.
+2024-10-07 14:20:27,504 : DEBUG : comm-pool-thread-19 :  : TableToVariable3NodeModel : Table Row to Variable : 5:218:217 : Removing all (0) views from model.
+2024-10-07 14:20:27,505 : DEBUG : comm-pool-thread-19 :  : Node : Table Row to Variable : 5:218:217 : clean output ports.
+2024-10-07 14:20:36,283 : DEBUG : comm-pool-thread-19 :  : TableToVariable3NodeModel : Table Row to Variable : 5:217 : Removing all (0) views from model.
+2024-10-07 14:20:36,283 : DEBUG : comm-pool-thread-19 :  : Node : Table Row to Variable : 5:217 : clean output ports.
+2024-10-07 14:20:36,283 : DEBUG : comm-pool-thread-19 :  : DBQueryReaderNodeModel : DB Query Reader : 5:215 : Removing all (0) views from model.
+2024-10-07 14:20:36,283 : DEBUG : comm-pool-thread-19 :  : Node : DB Query Reader : 5:215 : clean output ports.
+2024-10-07 14:20:36,284 : DEBUG : comm-pool-thread-19 :  : TableToVariable3NodeModel : Table Row to Variable : 5:218:217 : Removing all (0) views from model.
+2024-10-07 14:20:36,284 : DEBUG : comm-pool-thread-19 :  : Node : Table Row to Variable : 5:218:217 : clean output ports.
+2024-10-07 14:20:36,284 : DEBUG : comm-pool-thread-19 :  : DBQueryReaderNodeModel : DB Query Reader : 5:218:215 : Removing all (0) views from model.
+2024-10-07 14:20:36,284 : DEBUG : comm-pool-thread-19 :  : Node : DB Query Reader : 5:218:215 : clean output ports.
+2024-10-07 14:21:33,529 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Variable Creator : 5:216 : Created node directory "/home/jlizama/knime-workspace/TFG/Extraccion_primary_key/Variable Creator (#216)"
+2024-10-07 14:21:33,530 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Primary Key : 5:218 : Created node directory "/home/jlizama/knime-workspace/TFG/Extraccion_primary_key/Primary Key (#218)"
+2024-10-07 14:21:33,532 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Component Input : 5:218:0:1 : Created node directory "/home/jlizama/knime-workspace/TFG/Extraccion_primary_key/Primary Key (#218)/Component Input (#1)"
+2024-10-07 14:21:33,534 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Component Output : 5:218:0:2 : Created node directory "/home/jlizama/knime-workspace/TFG/Extraccion_primary_key/Primary Key (#218)/Component Output (#2)"
+2024-10-07 14:21:33,536 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : DB Query Reader : 5:218:0:215 : Created node directory "/home/jlizama/knime-workspace/TFG/Extraccion_primary_key/Primary Key (#218)/DB Query Reader (#215)"
+2024-10-07 14:21:33,537 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Table Row to Variable : 5:218:0:217 : Created node directory "/home/jlizama/knime-workspace/TFG/Extraccion_primary_key/Primary Key (#218)/Table Row to Variable (#217)"
+2024-10-07 14:21:33,548 : DEBUG : ModalContext :  : TableToVariable3NodeModel : Table Row to Variable : 5:218:0:217 : Removing all (0) views from model.
+2024-10-07 14:21:33,548 : DEBUG : ModalContext :  : Node : Table Row to Variable : 5:218:0:217 : clean output ports.
+2024-10-07 14:21:33,548 : DEBUG : ModalContext :  : DBQueryReaderNodeModel : DB Query Reader : 5:218:0:215 : Removing all (0) views from model.
+2024-10-07 14:21:33,548 : DEBUG : ModalContext :  : Node : DB Query Reader : 5:218:0:215 : clean output ports.
+2024-10-07 14:21:33,548 : DEBUG : ModalContext :  : VirtualSubNodeOutputNodeModel : Component Output : 5:218:0:2 : Removing all (0) views from model.
+2024-10-07 14:21:33,548 : DEBUG : ModalContext :  : Node : Component Output : 5:218:0:2 : clean output ports.
+2024-10-07 14:21:33,548 : DEBUG : ModalContext :  : VirtualSubNodeInputNodeModel : Component Input : 5:218:0:1 : Removing all (0) views from model.
+2024-10-07 14:21:33,548 : DEBUG : ModalContext :  : Node : Component Input : 5:218:0:1 : clean output ports.
+2024-10-07 14:21:33,548 : DEBUG : ModalContext :  : VariableCreatorNodeModel : Variable Creator : 5:216 : Removing all (0) views from model.
+2024-10-07 14:21:33,548 : DEBUG : ModalContext :  : Node : Variable Creator : 5:216 : clean output ports.
+2024-10-07 14:22:02,206 : DEBUG : ModalContext :  : VariableCreatorNodeFactory : Extraccion_primary_key : 3 : Factory is already initialized. Nothing to do.
+2024-10-07 14:22:02,347 : DEBUG : ModalContext :  : VariableTypeRegistry : Extraccion_primary_key : 3 : Added flow variable type 'org.knime.conda.CondaEnvironmentPropagation$CondaEnvironmentType' from 'org.knime.conda'
+2024-10-07 14:22:02,351 : DEBUG : ModalContext :  : VariableTypeRegistry : Extraccion_primary_key : 3 : Added flow variable type 'org.knime.filehandling.core.data.location.variable.FSLocationVariableType' from 'org.knime.filehandling.core'
+2024-10-07 14:22:02,352 : DEBUG : ModalContext :  : VariableTypeRegistry : Extraccion_primary_key : 3 : Added flow variable type 'org.knime.filehandling.core.data.location.variable.FSLocationSpecVariableType' from 'org.knime.filehandling.core'
+2024-10-07 14:22:02,506 : DEBUG : ModalContext :  : Node : Variable Creator : 3:216 : Configure succeeded. (Variable Creator)
+2024-10-07 14:22:02,525 : DEBUG : ModalContext :  : DBQueryReaderNodeFactory : Primary Key : 3:218 : Factory is already initialized. Nothing to do.
+2024-10-07 14:22:02,648 : DEBUG : ModalContext :  : TableToVariable3NodeFactory : Primary Key : 3:218 : Factory is already initialized. Nothing to do.
+2024-10-07 14:22:02,653 : DEBUG : ModalContext :  : WorkflowManager : Primary Key : 3:218 : Added new connection from node 3:218:0:1(1) to node 3:218:0:215(0)
+2024-10-07 14:22:02,653 : DEBUG : ModalContext :  : WorkflowManager : Primary Key : 3:218 : Added new connection from node 3:218:0:215(1) to node 3:218:0:217(1)
+2024-10-07 14:22:02,657 : WARN  : ModalContext :  : Node : Component Input : 3:218:0:1 : Component does not have input data, execute upstream nodes first
+2024-10-07 14:22:02,660 : WARN  : ModalContext :  : Node : Component Output : 3:218:0:2 : Component does not have input data, execute upstream nodes first
+2024-10-07 14:22:25,222 : DEBUG : comm-pool-thread-1 :  : VirtualSubNodeInputNodeModel : Component Input : 3:218:0:1 : Removing all (0) views from model.
+2024-10-07 14:22:25,222 : DEBUG : comm-pool-thread-1 :  : Node : Component Input : 3:218:0:1 : clean output ports.
+2024-10-07 14:22:28,262 : DEBUG : comm-pool-thread-1 :  : VirtualSubNodeOutputNodeModel : Component Output : 3:218:0:2 : Removing all (0) views from model.
+2024-10-07 14:22:28,262 : DEBUG : comm-pool-thread-1 :  : Node : Component Output : 3:218:0:2 : clean output ports.
+2024-10-07 14:23:34,376 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Primary Key : 3:218 : Created node directory "/home/jlizama/knime-workspace/TFG/Extraccion_primary_key/Primary Key (#218)"
+2024-10-07 14:23:34,389 : DEBUG : ModalContext :  : WorkflowManager : Primary Key : 3:218 : Deleted obsolete node directory "/home/jlizama/knime-workspace/TFG/Extraccion_primary_key/Primary Key (#218)/Component Input (#1)"
+2024-10-07 14:23:34,391 : DEBUG : ModalContext :  : WorkflowManager : Primary Key : 3:218 : Deleted obsolete node directory "/home/jlizama/knime-workspace/TFG/Extraccion_primary_key/Primary Key (#218)/Component Output (#2)"
+2024-10-07 14:23:34,394 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Component Input : 3:218:0:218 : Created node directory "/home/jlizama/knime-workspace/TFG/Extraccion_primary_key/Primary Key (#218)/Component Input (#218)"
+2024-10-07 14:23:34,403 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Component Output : 3:218:0:219 : Created node directory "/home/jlizama/knime-workspace/TFG/Extraccion_primary_key/Primary Key (#218)/Component Output (#219)"

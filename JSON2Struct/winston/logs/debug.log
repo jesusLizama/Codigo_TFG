@@ -1,0 +1,176 @@
+2025-01-02 15:48:03 [INFO]: [REDIS] Conectado a Redis
+2025-01-02 15:48:03 [INFO]: [REDIS] Suscrito al canal "ehr_json"
+2025-01-02 15:48:06 [INFO]: [REDIS] Mensaje recibido en el canal ehr_json
+2025-01-02 15:48:06 [INFO]: [PROCESS] Procesando JSON con ID_INSTANCIA: undefined
+2025-01-02 15:48:07 [INFO]: [REDIS] Mensaje recibido en el canal ehr_json
+2025-01-02 15:48:07 [INFO]: [PROCESS] Procesando JSON con ID_INSTANCIA: 51280896
+2025-01-02 15:48:07 [INFO]: Buscando reglas desde MongoDB para plantilla 582
+2025-01-02 15:48:08 [INFO]: [REDIS] Mensaje recibido en el canal ehr_json
+2025-01-02 15:48:08 [INFO]: [PROCESS] Procesando JSON con ID_INSTANCIA: 51762393
+2025-01-02 15:48:08 [INFO]: [REDIS] Mensaje recibido en el canal ehr_json
+2025-01-02 15:48:08 [INFO]: [PROCESS] Procesando JSON con ID_INSTANCIA: 51870456
+2025-01-02 15:48:08 [INFO]: [MONGO_DB] Conexión exitosa a MongoDB
+2025-01-02 15:48:08 [INFO]: [REDIS] Mensaje recibido en el canal ehr_json
+2025-01-02 15:48:08 [INFO]: [PROCESS] Procesando JSON con ID_INSTANCIA: 51280901
+2025-01-02 15:48:08 [DEBUG]: El contenido de la regla después de parsearla: 
+2025-01-02 15:48:08 [INFO]: [MONGO_DB] Conexión cerrada.
+2025-01-02 15:48:08 [DEBUG]: Reglas leídas:
+2025-01-02 15:48:08 [DEBUG]: [PROCESS] Cargadas reglas 582 en cache
+2025-01-02 15:48:08 [INFO]: [PROCESS] Reglas para la plantilla 582 obtenidas desde la caché.
+2025-01-02 15:48:08 [DEBUG]: Procesando elemento 'PLANTILLA' '582'
+2025-01-02 15:48:08 [DEBUG]: Aplicando mapeos para la regla con 'tabla_destino': observation
+2025-01-02 15:48:08 [DEBUG]: Resultado del procesamiento de la regla:
+2025-01-02 15:48:08 [DEBUG]: ------------------------
+2025-01-02 15:48:08 [DEBUG]: Hay hijos a este nivel.
+2025-01-02 15:48:08 [DEBUG]: Procesando reglas de 'arquetipo' '1341'
+2025-01-02 15:48:08 [DEBUG]: Procesando elemento 'ARQUETIPO' '1341'
+2025-01-02 15:48:08 [DEBUG]: Aplicando mapeos para la regla con 'tabla_destino': observation
+2025-01-02 15:48:08 [DEBUG]: Resultado del procesamiento de la regla:
+2025-01-02 15:48:08 [DEBUG]: ------------------------
+2025-01-02 15:48:08 [INFO]: [PROCESS] Reglas para la plantilla 582 obtenidas desde la caché.
+2025-01-02 15:48:08 [DEBUG]: Procesando elemento 'PLANTILLA' '582'
+2025-01-02 15:48:08 [DEBUG]: Aplicando mapeos para la regla con 'tabla_destino': observation
+2025-01-02 15:48:08 [DEBUG]: Resultado del procesamiento de la regla:
+2025-01-02 15:48:08 [DEBUG]: ------------------------
+2025-01-02 15:48:08 [DEBUG]: Hay hijos a este nivel.
+2025-01-02 15:48:08 [DEBUG]: Procesando reglas de 'arquetipo' '1341'
+2025-01-02 15:48:08 [DEBUG]: Procesando elemento 'ARQUETIPO' '1341'
+2025-01-02 15:48:08 [DEBUG]: Aplicando mapeos para la regla con 'tabla_destino': observation
+2025-01-02 15:48:08 [DEBUG]: Resultado del procesamiento de la regla:
+2025-01-02 15:48:08 [DEBUG]: ------------------------
+2025-01-02 15:48:08 [DEBUG]: [PROCESS] Semáforo adquirido. Ejecutando sección crítica: Restar 1 al contador!
+2025-01-02 15:48:08 [DEBUG]: [PROCESS] Quedan  9 mensajes por procesar
+2025-01-02 15:48:08 [DEBUG]: [PROCESS] Liberando el semáforo...
+2025-01-02 15:48:08 [INFO]: [PROCESS] Reglas para la plantilla 582 obtenidas desde la caché.
+2025-01-02 15:48:08 [DEBUG]: Procesando elemento 'PLANTILLA' '582'
+2025-01-02 15:48:08 [DEBUG]: Aplicando mapeos para la regla con 'tabla_destino': observation
+2025-01-02 15:48:08 [DEBUG]: Resultado del procesamiento de la regla:
+2025-01-02 15:48:08 [DEBUG]: ------------------------
+2025-01-02 15:48:08 [DEBUG]: Hay hijos a este nivel.
+2025-01-02 15:48:08 [DEBUG]: Procesando reglas de 'arquetipo' '1341'
+2025-01-02 15:48:08 [DEBUG]: Procesando elemento 'ARQUETIPO' '1341'
+2025-01-02 15:48:08 [DEBUG]: Aplicando mapeos para la regla con 'tabla_destino': observation
+2025-01-02 15:48:08 [DEBUG]: Resultado del procesamiento de la regla:
+2025-01-02 15:48:08 [DEBUG]: ------------------------
+2025-01-02 15:48:08 [DEBUG]: [PROCESS] Semáforo adquirido. Ejecutando sección crítica: Restar 1 al contador!
+2025-01-02 15:48:08 [DEBUG]: [PROCESS] Quedan  8 mensajes por procesar
+2025-01-02 15:48:08 [DEBUG]: [PROCESS] Liberando el semáforo...
+2025-01-02 15:48:08 [INFO]: [PROCESS] Reglas para la plantilla 582 obtenidas desde la caché.
+2025-01-02 15:48:08 [DEBUG]: Procesando elemento 'PLANTILLA' '582'
+2025-01-02 15:48:08 [DEBUG]: Aplicando mapeos para la regla con 'tabla_destino': observation
+2025-01-02 15:48:08 [DEBUG]: Resultado del procesamiento de la regla:
+2025-01-02 15:48:08 [DEBUG]: ------------------------
+2025-01-02 15:48:08 [DEBUG]: Hay hijos a este nivel.
+2025-01-02 15:48:08 [DEBUG]: Procesando reglas de 'arquetipo' '1341'
+2025-01-02 15:48:08 [DEBUG]: Procesando elemento 'ARQUETIPO' '1341'
+2025-01-02 15:48:08 [DEBUG]: Aplicando mapeos para la regla con 'tabla_destino': observation
+2025-01-02 15:48:08 [DEBUG]: Resultado del procesamiento de la regla:
+2025-01-02 15:48:08 [DEBUG]: ------------------------
+2025-01-02 15:48:08 [DEBUG]: [PROCESS] Semáforo adquirido. Ejecutando sección crítica: Restar 1 al contador!
+2025-01-02 15:48:08 [DEBUG]: [PROCESS] Quedan  7 mensajes por procesar
+2025-01-02 15:48:08 [DEBUG]: [PROCESS] Liberando el semáforo...
+2025-01-02 15:48:08 [DEBUG]: [PROCESS] Semáforo adquirido. Ejecutando sección crítica: Restar 1 al contador!
+2025-01-02 15:48:08 [DEBUG]: [PROCESS] Quedan  6 mensajes por procesar
+2025-01-02 15:48:08 [DEBUG]: [PROCESS] Liberando el semáforo...
+2025-01-02 15:48:08 [INFO]: [REDIS] Mensaje recibido en el canal ehr_json
+2025-01-02 15:48:08 [INFO]: [PROCESS] Procesando JSON con ID_INSTANCIA: 51281990
+2025-01-02 15:48:08 [INFO]: [PROCESS] Reglas para la plantilla 582 obtenidas desde la caché.
+2025-01-02 15:48:08 [DEBUG]: Procesando elemento 'PLANTILLA' '582'
+2025-01-02 15:48:08 [DEBUG]: Aplicando mapeos para la regla con 'tabla_destino': observation
+2025-01-02 15:48:08 [DEBUG]: Resultado del procesamiento de la regla:
+2025-01-02 15:48:08 [DEBUG]: ------------------------
+2025-01-02 15:48:08 [DEBUG]: Hay hijos a este nivel.
+2025-01-02 15:48:08 [DEBUG]: Procesando reglas de 'arquetipo' '1341'
+2025-01-02 15:48:08 [DEBUG]: Procesando elemento 'ARQUETIPO' '1341'
+2025-01-02 15:48:08 [DEBUG]: Aplicando mapeos para la regla con 'tabla_destino': observation
+2025-01-02 15:48:08 [DEBUG]: Resultado del procesamiento de la regla:
+2025-01-02 15:48:08 [DEBUG]: ------------------------
+2025-01-02 15:48:08 [INFO]: [REDIS] Mensaje recibido en el canal ehr_json
+2025-01-02 15:48:08 [INFO]: [PROCESS] Procesando JSON con ID_INSTANCIA: 51280894
+2025-01-02 15:48:08 [INFO]: [PROCESS] Reglas para la plantilla 582 obtenidas desde la caché.
+2025-01-02 15:48:08 [DEBUG]: Procesando elemento 'PLANTILLA' '582'
+2025-01-02 15:48:08 [DEBUG]: Aplicando mapeos para la regla con 'tabla_destino': observation
+2025-01-02 15:48:08 [DEBUG]: Resultado del procesamiento de la regla:
+2025-01-02 15:48:08 [DEBUG]: ------------------------
+2025-01-02 15:48:08 [DEBUG]: Hay hijos a este nivel.
+2025-01-02 15:48:08 [DEBUG]: Procesando reglas de 'arquetipo' '1341'
+2025-01-02 15:48:08 [DEBUG]: Procesando elemento 'ARQUETIPO' '1341'
+2025-01-02 15:48:08 [DEBUG]: Aplicando mapeos para la regla con 'tabla_destino': observation
+2025-01-02 15:48:08 [DEBUG]: Resultado del procesamiento de la regla:
+2025-01-02 15:48:08 [DEBUG]: ------------------------
+2025-01-02 15:48:08 [DEBUG]: [PROCESS] Semáforo adquirido. Ejecutando sección crítica: Restar 1 al contador!
+2025-01-02 15:48:08 [DEBUG]: [PROCESS] Quedan  5 mensajes por procesar
+2025-01-02 15:48:08 [DEBUG]: [PROCESS] Liberando el semáforo...
+2025-01-02 15:48:08 [DEBUG]: [PROCESS] Semáforo adquirido. Ejecutando sección crítica: Restar 1 al contador!
+2025-01-02 15:48:08 [DEBUG]: [PROCESS] Quedan  4 mensajes por procesar
+2025-01-02 15:48:08 [DEBUG]: [PROCESS] Liberando el semáforo...
+2025-01-02 15:48:08 [INFO]: [REDIS] Mensaje recibido en el canal ehr_json
+2025-01-02 15:48:08 [INFO]: [PROCESS] Procesando JSON con ID_INSTANCIA: 51280893
+2025-01-02 15:48:08 [INFO]: [PROCESS] Reglas para la plantilla 582 obtenidas desde la caché.
+2025-01-02 15:48:08 [DEBUG]: Procesando elemento 'PLANTILLA' '582'
+2025-01-02 15:48:08 [DEBUG]: Aplicando mapeos para la regla con 'tabla_destino': observation
+2025-01-02 15:48:08 [DEBUG]: Resultado del procesamiento de la regla:
+2025-01-02 15:48:08 [DEBUG]: ------------------------
+2025-01-02 15:48:08 [DEBUG]: Hay hijos a este nivel.
+2025-01-02 15:48:08 [DEBUG]: Procesando reglas de 'arquetipo' '1341'
+2025-01-02 15:48:08 [DEBUG]: Procesando elemento 'ARQUETIPO' '1341'
+2025-01-02 15:48:08 [DEBUG]: Aplicando mapeos para la regla con 'tabla_destino': observation
+2025-01-02 15:48:08 [DEBUG]: Resultado del procesamiento de la regla:
+2025-01-02 15:48:08 [DEBUG]: ------------------------
+2025-01-02 15:48:08 [DEBUG]: [PROCESS] Semáforo adquirido. Ejecutando sección crítica: Restar 1 al contador!
+2025-01-02 15:48:08 [DEBUG]: [PROCESS] Quedan  3 mensajes por procesar
+2025-01-02 15:48:08 [DEBUG]: [PROCESS] Liberando el semáforo...
+2025-01-02 15:48:08 [INFO]: [REDIS] Mensaje recibido en el canal ehr_json
+2025-01-02 15:48:08 [INFO]: [PROCESS] Procesando JSON con ID_INSTANCIA: 51281983
+2025-01-02 15:48:08 [INFO]: [PROCESS] Reglas para la plantilla 582 obtenidas desde la caché.
+2025-01-02 15:48:08 [DEBUG]: Procesando elemento 'PLANTILLA' '582'
+2025-01-02 15:48:08 [DEBUG]: Aplicando mapeos para la regla con 'tabla_destino': observation
+2025-01-02 15:48:08 [DEBUG]: Resultado del procesamiento de la regla:
+2025-01-02 15:48:08 [DEBUG]: ------------------------
+2025-01-02 15:48:08 [DEBUG]: Hay hijos a este nivel.
+2025-01-02 15:48:08 [DEBUG]: Procesando reglas de 'arquetipo' '1341'
+2025-01-02 15:48:08 [DEBUG]: Procesando elemento 'ARQUETIPO' '1341'
+2025-01-02 15:48:08 [DEBUG]: Aplicando mapeos para la regla con 'tabla_destino': observation
+2025-01-02 15:48:08 [DEBUG]: Resultado del procesamiento de la regla:
+2025-01-02 15:48:08 [DEBUG]: ------------------------
+2025-01-02 15:48:08 [DEBUG]: [PROCESS] Semáforo adquirido. Ejecutando sección crítica: Restar 1 al contador!
+2025-01-02 15:48:08 [DEBUG]: [PROCESS] Quedan  2 mensajes por procesar
+2025-01-02 15:48:08 [DEBUG]: [PROCESS] Liberando el semáforo...
+2025-01-02 15:48:08 [INFO]: [REDIS] Mensaje recibido en el canal ehr_json
+2025-01-02 15:48:08 [INFO]: [PROCESS] Procesando JSON con ID_INSTANCIA: 51618241
+2025-01-02 15:48:08 [INFO]: [PROCESS] Reglas para la plantilla 582 obtenidas desde la caché.
+2025-01-02 15:48:08 [DEBUG]: Procesando elemento 'PLANTILLA' '582'
+2025-01-02 15:48:08 [DEBUG]: Aplicando mapeos para la regla con 'tabla_destino': observation
+2025-01-02 15:48:08 [DEBUG]: Resultado del procesamiento de la regla:
+2025-01-02 15:48:08 [DEBUG]: ------------------------
+2025-01-02 15:48:08 [DEBUG]: Hay hijos a este nivel.
+2025-01-02 15:48:08 [DEBUG]: Procesando reglas de 'arquetipo' '1341'
+2025-01-02 15:48:08 [DEBUG]: Procesando elemento 'ARQUETIPO' '1341'
+2025-01-02 15:48:08 [DEBUG]: Aplicando mapeos para la regla con 'tabla_destino': observation
+2025-01-02 15:48:08 [DEBUG]: Resultado del procesamiento de la regla:
+2025-01-02 15:48:08 [DEBUG]: ------------------------
+2025-01-02 15:48:08 [DEBUG]: [PROCESS] Semáforo adquirido. Ejecutando sección crítica: Restar 1 al contador!
+2025-01-02 15:48:08 [DEBUG]: [PROCESS] Quedan  1 mensajes por procesar
+2025-01-02 15:48:08 [DEBUG]: [PROCESS] Liberando el semáforo...
+2025-01-02 15:48:08 [INFO]: [REDIS] Mensaje recibido en el canal ehr_json
+2025-01-02 15:48:08 [INFO]: [PROCESS] Procesando JSON con ID_INSTANCIA: 51281980
+2025-01-02 15:48:08 [INFO]: [PROCESS] Reglas para la plantilla 582 obtenidas desde la caché.
+2025-01-02 15:48:08 [DEBUG]: Procesando elemento 'PLANTILLA' '582'
+2025-01-02 15:48:08 [DEBUG]: Aplicando mapeos para la regla con 'tabla_destino': observation
+2025-01-02 15:48:08 [DEBUG]: Resultado del procesamiento de la regla:
+2025-01-02 15:48:08 [DEBUG]: ------------------------
+2025-01-02 15:48:08 [DEBUG]: Hay hijos a este nivel.
+2025-01-02 15:48:08 [DEBUG]: Procesando reglas de 'arquetipo' '1341'
+2025-01-02 15:48:08 [DEBUG]: Procesando elemento 'ARQUETIPO' '1341'
+2025-01-02 15:48:08 [DEBUG]: Aplicando mapeos para la regla con 'tabla_destino': observation
+2025-01-02 15:48:08 [DEBUG]: Resultado del procesamiento de la regla:
+2025-01-02 15:48:08 [DEBUG]: ------------------------
+2025-01-02 15:48:08 [INFO]: [REDIS] Mensaje recibido en el canal ehr_json
+2025-01-02 15:48:08 [INFO]: [REDIS] Proceso finalizado. Cerrando suscriptor...
+2025-01-02 15:48:08 [DEBUG]: [PROCESS] Semáforo adquirido. Ejecutando sección crítica: Restar 1 al contador!
+2025-01-02 15:48:08 [DEBUG]: [PROCESS] Quedan  0 mensajes por procesar
+2025-01-02 15:48:08 [DEBUG]: Resultado del procesamiento de la regla:
+2025-01-02 15:48:08 [DEBUG]: ------------------------
+2025-01-02 15:48:08 [INFO]: [CONSOLE] Mensaje de finalización enviado por consola
+2025-01-02 15:48:08 [DEBUG]: [PROCESS] Liberando el semáforo...
+2025-01-02 15:48:08 [INFO]: [REDIS] Conexión a Redis cerrada

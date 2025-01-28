@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack">
+        <config key="Variable_0">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="RowID"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value=""/>
+        </config>
+        <config key="Variable_1">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="table_create_POSTGRESQL"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="missing"/>
+        </config>
+        <config key="Variable_2">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="schema_POSTGRESQL"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="missing"/>
+        </config>
+        <config key="Variable_3">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="port_POSTGRESQL"/>
+            <entry key="class" type="xstring" value="INTEGER"/>
+            <entry key="value" type="xint" value="0"/>
+        </config>
+        <config key="Variable_4">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="database_POSTGRESQL"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="missing"/>
+        </config>
+        <config key="Variable_5">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="hostname_POSTGRESQL"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="missing"/>
+        </config>
+        <config key="Variable_6">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="password_POSTGRESQL"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="missing"/>
+        </config>
+        <config key="Variable_7">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="user_POSTGRESQL"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="missing"/>
+        </config>
+        <config key="Variable_8">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="schema_ORACLE"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="missing"/>
+        </config>
+        <config key="Variable_9">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="query_ORACLE"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="missing"/>
+        </config>
+        <config key="Variable_10">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="port_ORACLE"/>
+            <entry key="class" type="xstring" value="INTEGER"/>
+            <entry key="value" type="xint" value="0"/>
+        </config>
+        <config key="Variable_11">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="database_ORACLE"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="missing"/>
+        </config>
+        <config key="Variable_12">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="hostname_ORACLE"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="missing"/>
+        </config>
+        <config key="Variable_13">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="password_ORACLE"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="missing"/>
+        </config>
+        <config key="Variable_14">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="user_ORACLE"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="missing"/>
+        </config>
+        <config key="Variable_15">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="RowID"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="Row0"/>
+        </config>
+        <config key="Variable_16">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="table_create_POSTGRESQL"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="SGP_DATOFECHA"/>
+        </config>
+        <config key="Variable_17">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="schema_POSTGRESQL"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="hce_model"/>
+        </config>
+        <config key="Variable_18">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="port_POSTGRESQL"/>
+            <entry key="class" type="xstring" value="INTEGER"/>
+            <entry key="value" type="xint" value="5432"/>
+        </config>
+        <config key="Variable_19">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="database_POSTGRESQL"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="bigandev"/>
+        </config>
+        <config key="Variable_20">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="hostname_POSTGRESQL"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="bigan-dev-01.bigan.eu"/>
+        </config>
+        <config key="Variable_21">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="password_POSTGRESQL"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="b1g4n-0wN"/>
+        </config>
+        <config key="Variable_22">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="user_POSTGRESQL"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="bigan_own"/>
+        </config>
+        <config key="Variable_23">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="schema_ORACLE"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="SGPV2"/>
+        </config>
+        <config key="Variable_24">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="query_ORACLE"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="WITH plant AS (     SELECT pcia, id_instancia_plant     FROM SGPV2.SGP_INST_PLANTILLA sip     WHERE      (FECHA_INSTANCIA &gt; to_date('01/07/2024','dd/MM/yyyy')     OR modif_fecha  &gt; to_date('01/07/2024','dd/MM/yyyy')) ), arquet AS (     SELECT sia.*      FROM SGPV2.SGP_INST_ARQUETIPO sia     JOIN plant      ON sia.pcia = plant.pcia     AND sia.id_instancia_plant = plant.id_instancia_plant ), datobasico AS (     SELECT sid.*     FROM SGPV2.SGP_INST_DATOBASICO sid     JOIN arquet      ON sid.PCIA = arquet.PCIA     AND sid.ID_INSTANCIA_ARQ = arquet.ID_INSTANCIA_ARQ ) SELECT sd.*  FROM datobasico JOIN SGPV2.SGP_DATOFECHA sd ON sd.PCIA = datobasico.PCIA     AND sd.ID_INSTANCIA_DATO = datobasico.ID_INSTANCIA_DATO    "/>
+        </config>
+        <config key="Variable_25">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="port_ORACLE"/>
+            <entry key="class" type="xstring" value="INTEGER"/>
+            <entry key="value" type="xint" value="47050"/>
+        </config>
+        <config key="Variable_26">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="database_ORACLE"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="hcej2ee_gn1_hce.salud.psis"/>
+        </config>
+        <config key="Variable_27">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="hostname_ORACLE"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="bev-wsrachce-scan.salud.psis"/>
+        </config>
+        <config key="Variable_28">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="password_ORACLE"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="A9fHwd6$"/>
+        </config>
+        <config key="Variable_29">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="user_ORACLE"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="BIGAN_USR"/>
+        </config>
+    </config>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="missing_value_policy_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="missing_value_policy" type="xstring" value="DEFAULT"/>
+        <config key="default_value_string_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="default_value_string" type="xstring" value="missing"/>
+        <config key="default_value_boolean_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="default_value_boolean" type="xstring" value="false"/>
+        <config key="default_value_integer_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="default_value_integer" type="xint" value="0"/>
+        <config key="default_value_long_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMN_long"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="default_value_long" type="xlong" value="0"/>
+        <config key="default_value_double_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_double"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="default_value_double" type="xdouble" value="0.0"/>
+        <config key="column_selection_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_columnfilter"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <config key="column_selection">
+            <entry key="filter-type" type="xstring" value="STANDARD"/>
+            <config key="included_names">
+                <entry key="array-size" type="xint" value="0"/>
+            </config>
+            <config key="excluded_names">
+                <entry key="array-size" type="xint" value="0"/>
+            </config>
+            <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+            <config key="name_pattern">
+                <entry key="pattern" type="xstring" value=""/>
+                <entry key="type" type="xstring" value="Wildcard"/>
+                <entry key="caseSensitive" type="xboolean" value="true"/>
+                <entry key="excludeMatching" type="xboolean" value="false"/>
+            </config>
+            <config key="datatype">
+                <config key="typelist"/>
+            </config>
+        </config>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="factory" type="xstring" value="org.knime.base.node.flowvariable.tablerowtovariable3.TableToVariable3NodeFactory"/>
+    <entry key="node-name" type="xstring" value="Table Row to Variable"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.3.1.v202408020914"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.3.1.v202408020914"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Table Row to Variable"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObjectSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObject"/>
+            <entry key="port_object_summary" type="xstring" value="Variables connection"/>
+            <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+            <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+    </config>
+</config>

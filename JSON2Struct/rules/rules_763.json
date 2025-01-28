@@ -1,0 +1,27 @@
+{
+    "id": 10,
+    "level": "plantilla",
+    "child_rules": [
+        {
+            "id": 61,
+            "level": "arquetipo",
+            "child_rules": [
+                {
+                    "id": 161,
+                    "level": "dato_basico",
+                    "rule_set": [
+                        {
+                            "target_table": "observation",
+                            "condition": true,
+                            "field_map": [
+                                "t.person_id = d.ID_PACIENTE",
+                                "t.observation_date = e.content.FECHA_REFERENCIA"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
+

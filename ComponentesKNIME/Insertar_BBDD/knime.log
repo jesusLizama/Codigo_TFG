@@ -1,0 +1,45 @@
+2024-10-02 13:43:45,530 : DEBUG : comm-pool-thread-100 :  : DBInsertNodeFactory : Insert BBDD : 10:86 : Factory is already initialized. Nothing to do.
+2024-10-02 13:43:45,541 : DEBUG : comm-pool-thread-100 :  : WorkflowManager : Insert BBDD : 10:86 : Added new connection from node 10:86:0:21(1) to node 10:86:0:19(1)
+2024-10-02 13:43:45,541 : DEBUG : comm-pool-thread-100 :  : WorkflowManager : Insert BBDD : 10:86 : Added new connection from node 10:86:0:21(2) to node 10:86:0:19(2)
+2024-10-02 13:44:37,419 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Insert BBDD : 10:86 : Created node directory "/home/jlizama/knime-workspace/TFG/Insertar_BBDD/Insert BBDD (#86)"
+2024-10-02 13:44:37,423 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Component Output : 10:86:0:2 : Created node directory "/home/jlizama/knime-workspace/TFG/Insertar_BBDD/Insert BBDD (#86)/Component Output (#2)"
+2024-10-02 13:44:37,425 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : DB Insert : 10:86:0:19 : Created node directory "/home/jlizama/knime-workspace/TFG/Insertar_BBDD/Insert BBDD (#86)/DB Insert (#19)"
+2024-10-02 13:44:37,426 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Component Input : 10:86:0:21 : Created node directory "/home/jlizama/knime-workspace/TFG/Insertar_BBDD/Insert BBDD (#86)/Component Input (#21)"
+2024-10-02 13:44:38,383 : DEBUG : main :  : DBInsertNodeModel : DB Insert : 10:86:0:19 : Removing all (0) views from model.
+2024-10-02 13:44:38,383 : DEBUG : main :  : Node : DB Insert : 10:86:0:19 : clean output ports.
+2024-10-02 13:44:38,384 : DEBUG : main :  : VirtualSubNodeInputNodeModel : Component Input : 10:86:0:21 : Removing all (0) views from model.
+2024-10-02 13:44:38,384 : DEBUG : main :  : Node : Component Input : 10:86:0:21 : clean output ports.
+2024-10-02 13:44:38,384 : DEBUG : main :  : VirtualSubNodeOutputNodeModel : Component Output : 10:86:0:2 : Removing all (0) views from model.
+2024-10-02 13:44:38,384 : DEBUG : main :  : Node : Component Output : 10:86:0:2 : clean output ports.
+2024-10-02 13:45:14,118 : DEBUG : ModalContext :  : DBInsertNodeFactory : Insert BBDD : 10:86 : Factory is already initialized. Nothing to do.
+2024-10-02 13:45:14,121 : DEBUG : ModalContext :  : WorkflowManager : Insert BBDD : 10:86 : Added new connection from node 10:86:0:21(1) to node 10:86:0:19(1)
+2024-10-02 13:45:14,122 : DEBUG : ModalContext :  : WorkflowManager : Insert BBDD : 10:86 : Added new connection from node 10:86:0:21(2) to node 10:86:0:19(2)
+2024-10-02 15:59:57,803 : DEBUG : main :  : DBInsertNodeModel : DB Insert : 10:86:0:19 : Removing all (0) views from model.
+2024-10-02 15:59:57,803 : DEBUG : main :  : Node : DB Insert : 10:86:0:19 : clean output ports.
+2024-10-02 15:59:57,803 : DEBUG : main :  : VirtualSubNodeInputNodeModel : Component Input : 10:86:0:21 : Removing all (0) views from model.
+2024-10-02 15:59:57,803 : DEBUG : main :  : Node : Component Input : 10:86:0:21 : clean output ports.
+2024-10-02 15:59:57,803 : DEBUG : main :  : VirtualSubNodeOutputNodeModel : Component Output : 10:86:0:2 : Removing all (0) views from model.
+2024-10-02 15:59:57,803 : DEBUG : main :  : Node : Component Output : 10:86:0:2 : clean output ports.
+2024-10-04 14:11:09,092 : DEBUG : ModalContext :  : DBInsertNodeFactory : Insert BBDD : 12:86 : Factory is already initialized. Nothing to do.
+2024-10-04 14:11:09,095 : DEBUG : ModalContext :  : WorkflowManager : Insert BBDD : 12:86 : Added new connection from node 12:86:0:21(1) to node 12:86:0:19(1)
+2024-10-04 14:11:09,095 : DEBUG : ModalContext :  : WorkflowManager : Insert BBDD : 12:86 : Added new connection from node 12:86:0:21(2) to node 12:86:0:19(2)
+2024-10-04 14:11:11,412 : DEBUG : comm-pool-thread-90 :  : DBInsertNodeFactory : Insert BBDD : 12:209 : Factory is already initialized. Nothing to do.
+2024-10-04 14:11:11,428 : DEBUG : comm-pool-thread-90 :  : WorkflowManager : Insert BBDD : 12:209 : Added new connection from node 12:209:0:19(1) to node 12:209:0:22(1)
+2024-10-04 14:11:11,428 : DEBUG : comm-pool-thread-90 :  : WorkflowManager : Insert BBDD : 12:209 : Added new connection from node 12:209:0:21(1) to node 12:209:0:19(1)
+2024-10-04 14:11:11,428 : DEBUG : comm-pool-thread-90 :  : WorkflowManager : Insert BBDD : 12:209 : Added new connection from node 12:209:0:21(2) to node 12:209:0:19(2)
+2024-10-04 14:11:13,304 : DEBUG : comm-pool-thread-90 :  : DBInsertNodeModel : DB Insert : 12:86:0:19 : Removing all (0) views from model.
+2024-10-04 14:11:13,304 : DEBUG : comm-pool-thread-90 :  : Node : DB Insert : 12:86:0:19 : clean output ports.
+2024-10-04 14:11:13,304 : DEBUG : comm-pool-thread-90 :  : VirtualSubNodeInputNodeModel : Component Input : 12:86:0:21 : Removing all (0) views from model.
+2024-10-04 14:11:13,304 : DEBUG : comm-pool-thread-90 :  : Node : Component Input : 12:86:0:21 : clean output ports.
+2024-10-04 14:11:13,304 : DEBUG : comm-pool-thread-90 :  : VirtualSubNodeOutputNodeModel : Component Output : 12:86:0:2 : Removing all (0) views from model.
+2024-10-04 14:11:13,304 : DEBUG : comm-pool-thread-90 :  : Node : Component Output : 12:86:0:2 : clean output ports.
+2024-10-04 14:11:16,112 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Insert BBDD : 12:209 : Created node directory "/home/jlizama/knime-workspace/TFG/Insertar_BBDD/Insert BBDD (#209)"
+2024-10-04 14:11:16,114 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : DB Insert : 12:209:0:19 : Created node directory "/home/jlizama/knime-workspace/TFG/Insertar_BBDD/Insert BBDD (#209)/DB Insert (#19)"
+2024-10-04 14:11:16,114 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Component Input : 12:209:0:21 : Created node directory "/home/jlizama/knime-workspace/TFG/Insertar_BBDD/Insert BBDD (#209)/Component Input (#21)"
+2024-10-04 14:11:16,115 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Component Output : 12:209:0:22 : Created node directory "/home/jlizama/knime-workspace/TFG/Insertar_BBDD/Insert BBDD (#209)/Component Output (#22)"
+2024-10-04 14:11:16,756 : DEBUG : main :  : VirtualSubNodeOutputNodeModel : Component Output : 12:209:0:22 : Removing all (0) views from model.
+2024-10-04 14:11:16,756 : DEBUG : main :  : Node : Component Output : 12:209:0:22 : clean output ports.
+2024-10-04 14:11:16,756 : DEBUG : main :  : DBInsertNodeModel : DB Insert : 12:209:0:19 : Removing all (0) views from model.
+2024-10-04 14:11:16,756 : DEBUG : main :  : Node : DB Insert : 12:209:0:19 : clean output ports.
+2024-10-04 14:11:16,757 : DEBUG : main :  : VirtualSubNodeInputNodeModel : Component Input : 12:209:0:21 : Removing all (0) views from model.
+2024-10-04 14:11:16,757 : DEBUG : main :  : Node : Component Input : 12:209:0:21 : clean output ports.
