@@ -1,0 +1,96 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+/// The underlying table does not contain a valid unique identifier and can therefore currently not be handled by Prisma Client.
+/// This model or at least one of its fields has comments in the database, and requires an additional setup for migrations: Read more: https://pris.ly/d/database-comments
+model newborn {
+  id               String    @db.VarChar(48)
+  person_id        String?   @db.VarChar(24)
+  mother_person_id String?   @db.VarChar(24)
+  race_cd          Int?      @db.SmallInt
+  birth_dt         DateTime? @db.Date
+  sex_cd           String?   @db.VarChar(10)
+  multiple_bl      Int?      @db.SmallInt
+  alive_nm         Int?      @db.SmallInt
+  order_nm         Int?      @db.SmallInt
+  gest_time_nm     Int?      @db.SmallInt
+  weight_nm        Int?      @db.SmallInt
+  size_nm          Float?
+  cran_perim_nm    Float?
+  birthplace_cd    Int?      @db.SmallInt
+  deliv_pattern_cd String?   @db.VarChar(15)
+  apgar5           Int?      @db.SmallInt
+  mother_age_nm    Int?      @db.SmallInt
+  pregn_nm         Int?      @db.SmallInt
+  abort_nm         Int?      @db.SmallInt
+  malformation_cd  Int?      @db.SmallInt
+  icu_days_nm      Int?      @db.SmallInt
+  exitus_bl        Int?      @db.SmallInt
+  exitus_dt        DateTime? @db.Date
+  source_cd        String?   @db.VarChar
+
+  @@ignore
+}
+
+model preg_chart {
+  id                Int       @id(map: "preg_chart_pk_new") @default(autoincrement())
+  ref_dt            DateTime? @db.Date
+  person_id         String?   @db.VarChar(24)
+  age_nm            Int?
+  prev_pregnancy_nm Int?
+  prev_birth_nm     Int?
+  prev_abortion_nm  Int?
+  last_period_dt    DateTime? @db.Date
+  preg_age_st       String?   @db.VarChar
+  tobacco_bl        Int?
+  alcohol_bl        Int?
+  size_nm           Int?
+  weight_nm         Int?
+  first_visit_bl    Int?
+  visit_nm          String?   @db.VarChar
+
+  @@unique([ref_dt, person_id], map: "preg_chart_un_new")
+}
+
+/// This model or at least one of its fields has comments in the database, and requires an additional setup for migrations: Read more: https://pris.ly/d/database-comments
+model preg_chart_bck {
+  id                Int       @id(map: "preg_chart_pk") @default(autoincrement())
+  ref_dt            DateTime? @db.Date
+  person_id         String?   @db.VarChar(24)
+  age_nm            Int?
+  prev_pregnancy_nm Int?
+  prev_birth_nm     Int?
+  prev_abortion_nm  Int?
+  last_period_dt    DateTime? @db.Date
+  tobacco_bl        Int?
+  alcohol_bl        Int?
+  size_nm           Int?
+  weight_nm         Int?
+  first_visit_bl    Int?
+
+  @@unique([ref_dt, person_id], map: "preg_chart_un")
+}
+
+model preg_chart_prisma {
+  id                Int       @id @default(autoincrement())
+  person_id         String?   @db.VarChar(24)
+  ref_dt            DateTime? @db.Date
+  age_nm            Int?
+  prev_pregnancy_nm Int?
+  prev_birth_nm     Int?
+  prev_abortion_nm  Int?
+  last_period_dt    DateTime? @db.Date
+  preg_age_st       String?   @db.VarChar
+  tobacco_bl        Int?
+  alcohol_bl        Int?
+  size_nm           Int?
+  weight_nm         Int?
+  first_visit_bl    Int?
+  visit_nm          String?   @db.VarChar
+}

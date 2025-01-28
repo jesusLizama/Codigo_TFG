@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="spec.xml">
+    <entry key="spec_name" type="xstring" value="default"/>
+    <entry key="number_columns" type="xint" value="15"/>
+    <config key="column_spec_0">
+        <entry key="column_name" type="xstring" value="user_ORACLE"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="possible_values">
+                <entry key="array-size" type="xint" value="1"/>
+                <config key="0">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="BIGAN_USR"/>
+                    </config>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="column_spec_1">
+        <entry key="column_name" type="xstring" value="password_ORACLE"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="possible_values">
+                <entry key="array-size" type="xint" value="1"/>
+                <config key="0">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="A9fHwd6$"/>
+                    </config>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="column_spec_2">
+        <entry key="column_name" type="xstring" value="hostname_ORACLE"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="possible_values">
+                <entry key="array-size" type="xint" value="1"/>
+                <config key="0">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="bev-wsrachce-scan.salud.psis"/>
+                    </config>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="column_spec_3">
+        <entry key="column_name" type="xstring" value="database_ORACLE"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="possible_values">
+                <entry key="array-size" type="xint" value="1"/>
+                <config key="0">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="hcej2ee_gn1_hce.salud.psis"/>
+                    </config>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="column_spec_4">
+        <entry key="column_name" type="xstring" value="port_ORACLE"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="lower_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
+                <config key="org.knime.core.data.def.IntCell">
+                    <entry key="IntCell" type="xint" value="47050"/>
+                </config>
+            </config>
+            <config key="upper_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
+                <config key="org.knime.core.data.def.IntCell">
+                    <entry key="IntCell" type="xint" value="47050"/>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="column_spec_5">
+        <entry key="column_name" type="xstring" value="query_ORACLE"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="possible_values">
+                <entry key="array-size" type="xint" value="20"/>
+                <config key="0">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SELECT * FROM SGPV2.SGP_DEF_ACTIVIDADES"/>
+                    </config>
+                </config>
+                <config key="1">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SELECT * FROM SGPV2.SGP_DEF_ARQUETIPOS"/>
+                    </config>
+                </config>
+                <config key="2">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SELECT * FROM SGPV2.SGP_DEF_DATOBASICO"/>
+                    </config>
+                </config>
+                <config key="3">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SELECT * FROM SGPV2.SGP_DEF_LISTAVALORES"/>
+                    </config>
+                </config>
+                <config key="4">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SELECT * FROM SGPV2.SGP_DEF_LISTAVALORES_DETALLE"/>
+                    </config>
+                </config>
+                <config key="5">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SELECT * FROM SGPV2.SGP_DEF_PLANTILLAS"/>
+                    </config>
+                </config>
+                <config key="6">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SELECT * FROM SGPV2.SGP_DEF_TAREAS"/>
+                    </config>
+                </config>
+                <config key="7">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SELECT * FROM SGPV2.SGP_DEF_TIPO_APLICACION"/>
+                    </config>
+                </config>
+                <config key="8">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SELECT * FROM SGPV2.SGP_DEF_DATO_PLANT_DEPEND"/>
+                    </config>
+                </config>
+                <config key="9">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SELECT * FROM SGPV2.SGP_DEF_REL_ACTIV_TAREA"/>
+                    </config>
+                </config>
+                <config key="10">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SELECT * FROM SGPV2.SGP_DEF_REL_ARQUET_DATOBASIC"/>
+                    </config>
+                </config>
+                <config key="11">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SELECT * FROM SGPV2.SGP_DEF_REL_PLANT_ARQUET"/>
+                    </config>
+                </config>
+                <config key="12">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SELECT * FROM SGPV2.SGP_DEF_REL_PLAN_ACTIV"/>
+                    </config>
+                </config>
+                <config key="13">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SELECT * FROM SGPV2.SGP_DEF_TAREA_TIPO_APLICACION"/>
+                    </config>
+                </config>
+                <config key="14">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SELECT * FROM SGPV2.SGP_DEF_PLANES_PERSONALES"/>
+                    </config>
+                </config>
+                <config key="15">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SELECT * FROM SGPV2.SGP_DEF_TAREA_TIPO_APL_PARAMS"/>
+                    </config>
+                </config>
+                <config key="16">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SELECT * FROM SGPV2.SGP_DEF_TAREA_TIPO_CHECKBOX"/>
+                    </config>
+                </config>
+                <config key="17">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SELECT * FROM SGPV2.SGP_DEF_TAREA_TIPO_GENERICA"/>
+                    </config>
+                </config>
+                <config key="18">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SELECT * FROM SGPV2.SGP_DEF_TAREA_TIPO_PLANTILLA"/>
+                    </config>
+                </config>
+                <config key="19">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SELECT * FROM SGPV2.SGP_DEF_TAREA_TIPO_SUPERPLAN"/>
+                    </config>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="column_spec_6">
+        <entry key="column_name" type="xstring" value="user"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="possible_values">
+                <entry key="array-size" type="xint" value="1"/>
+                <config key="0">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="bigan_own"/>
+                    </config>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="column_spec_7">
+        <entry key="column_name" type="xstring" value="password"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="possible_values">
+                <entry key="array-size" type="xint" value="1"/>
+                <config key="0">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="b1g4n-0wN"/>
+                    </config>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="column_spec_8">
+        <entry key="column_name" type="xstring" value="hostname"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="possible_values">
+                <entry key="array-size" type="xint" value="1"/>
+                <config key="0">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="bigan-dev-01.bigan.eu"/>
+                    </config>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="column_spec_9">
+        <entry key="column_name" type="xstring" value="database"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="possible_values">
+                <entry key="array-size" type="xint" value="1"/>
+                <config key="0">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="bigandev"/>
+                    </config>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="column_spec_10">
+        <entry key="column_name" type="xstring" value="port"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="lower_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
+                <config key="org.knime.core.data.def.IntCell">
+                    <entry key="IntCell" type="xint" value="5432"/>
+                </config>
+            </config>
+            <config key="upper_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
+                <config key="org.knime.core.data.def.IntCell">
+                    <entry key="IntCell" type="xint" value="5432"/>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="column_spec_11">
+        <entry key="column_name" type="xstring" value="schema"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="possible_values">
+                <entry key="array-size" type="xint" value="1"/>
+                <config key="0">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="hce_model"/>
+                    </config>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="column_spec_12">
+        <entry key="column_name" type="xstring" value="table_create"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="possible_values">
+                <entry key="array-size" type="xint" value="20"/>
+                <config key="0">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SGP_DEF_ACTIVIDADES"/>
+                    </config>
+                </config>
+                <config key="1">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SGP_DEF_ARQUETIPOS"/>
+                    </config>
+                </config>
+                <config key="2">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SGP_DEF_DATOBASICO"/>
+                    </config>
+                </config>
+                <config key="3">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SGP_DEF_LISTAVALORES"/>
+                    </config>
+                </config>
+                <config key="4">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SGP_DEF_LISTAVALORES_DETALLE"/>
+                    </config>
+                </config>
+                <config key="5">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SGP_DEF_PLANTILLAS"/>
+                    </config>
+                </config>
+                <config key="6">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SGP_DEF_TAREAS"/>
+                    </config>
+                </config>
+                <config key="7">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SGP_DEF_TIPO_APLICACION"/>
+                    </config>
+                </config>
+                <config key="8">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SGP_DEF_DATO_PLANT_DEPEND"/>
+                    </config>
+                </config>
+                <config key="9">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SGP_DEF_REL_ACTIV_TAREA"/>
+                    </config>
+                </config>
+                <config key="10">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SGP_DEF_REL_ARQUET_DATOBASIC"/>
+                    </config>
+                </config>
+                <config key="11">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SGP_DEF_REL_PLANT_ARQUET"/>
+                    </config>
+                </config>
+                <config key="12">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SGP_DEF_REL_PLAN_ACTIV"/>
+                    </config>
+                </config>
+                <config key="13">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SGP_DEF_TAREA_TIPO_APLICACION"/>
+                    </config>
+                </config>
+                <config key="14">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SGP_DEF_PLANES_PERSONALES"/>
+                    </config>
+                </config>
+                <config key="15">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SGP_DEF_TAREA_TIPO_APL_PARAMS"/>
+                    </config>
+                </config>
+                <config key="16">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SGP_DEF_TAREA_TIPO_CHECKBOX"/>
+                    </config>
+                </config>
+                <config key="17">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SGP_DEF_TAREA_TIPO_GENERICA"/>
+                    </config>
+                </config>
+                <config key="18">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SGP_DEF_TAREA_TIPO_PLANTILLA"/>
+                    </config>
+                </config>
+                <config key="19">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SGP_DEF_TAREA_TIPO_SUPERPLAN"/>
+                    </config>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="column_spec_13">
+        <entry key="column_name" type="xstring" value="CREATE TABLE"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="possible_values">
+                <entry key="array-size" type="xint" value="20"/>
+                <config key="0">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="CREATE TABLE IF NOT EXISTS &quot;hce_model&quot;.&quot;SGP_DEF_ACTIVIDADES&quot; (     &quot;ID_ACTIVIDAD&quot; NUMERIC PRIMARY KEY,     &quot;NOMBRE_CORTO&quot; VARCHAR(255),     &quot;NOMBRE_MOSTRADO&quot; VARCHAR(255),     &quot;OBLIGATORIO&quot; VARCHAR(10),     &quot;ESTADO&quot; NUMERIC,     &quot;DURACION&quot; NUMERIC,     &quot;ES_PERIODICA&quot; VARCHAR(10),     &quot;PERIODICIDAD_UNIDAD&quot; VARCHAR(10),     &quot;PERIODICIDAD_VALOR&quot; NUMERIC,     &quot;COMPARTE_LANZADERA&quot; VARCHAR(10),     &quot;ULTIMA_ACTUALIZACION&quot; TIMESTAMP,     &quot;REVISADO&quot; BOOLEAN,     &quot;SOURCE_CD&quot; VARCHAR(50),     &quot;SOURCE_CONCEPT_ID&quot; INTEGER,     &quot;CONCEPT_ID&quot; INTEGER );"/>
+                    </config>
+                </config>
+                <config key="1">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="CREATE TABLE IF NOT EXISTS &quot;hce_model&quot;.&quot;SGP_DEF_ARQUETIPOS&quot; (     &quot;ID_ARQUETIPO&quot; NUMERIC PRIMARY KEY,     &quot;TIPO_CARDINALIDAD&quot; NUMERIC,     &quot;NOMBRE&quot; VARCHAR(255),     &quot;ESTATICO&quot; VARCHAR(10),     &quot;ID_TILE&quot; VARCHAR(255),     &quot;FECHA_BAJA&quot; TIMESTAMP,     &quot;CAMPO_HL7&quot; VARCHAR(255),     &quot;NOMBRE_MOSTRADO&quot; VARCHAR(255),     &quot;OCULTAR_NOMBRE&quot; VARCHAR(10),     &quot;NIVEL_TITULO&quot; VARCHAR(255),     &quot;ULTIMA_ACTUALIZACION&quot; TIMESTAMP,     &quot;REVISADO&quot; BOOLEAN,     &quot;SOURCE_CD&quot; VARCHAR(50),     &quot;SOURCE_CONCEPT_ID&quot; INTEGER,     &quot;CONCEPT_ID&quot; INTEGER );"/>
+                    </config>
+                </config>
+                <config key="2">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="CREATE TABLE IF NOT EXISTS &quot;hce_model&quot;.&quot;SGP_DEF_DATOBASICO&quot; (     &quot;ID_DATOBASICO&quot; NUMERIC PRIMARY KEY,     &quot;TIPO_BASICO&quot; NUMERIC,     &quot;TIPO_CARDINALIDAD&quot; NUMERIC,     &quot;NOMBRE&quot; VARCHAR(255),     &quot;FECHA_BAJA&quot; TIMESTAMP,     &quot;CAMPO_HL7&quot; VARCHAR(255),     &quot;NOMBRE_MOSTRADO&quot; VARCHAR(255),     &quot;OCULTAR_NOMBRE&quot; VARCHAR(10),     &quot;ID_TILE&quot; VARCHAR(255),     &quot;UNIDAD&quot; VARCHAR(255),     &quot;LISTA_VALORES&quot; NUMERIC,     &quot;VER_FECHA&quot; VARCHAR(10),     &quot;ESTATICO&quot; VARCHAR(10),     &quot;ULTIMA_ACTUALIZACION&quot; TIMESTAMP,     &quot;REVISADO&quot; BOOLEAN,     &quot;SOURCE_CD&quot; VARCHAR(50),     &quot;SOURCE_CONCEPT_ID&quot; INTEGER,     &quot;CONCEPT_ID&quot; INTEGER );"/>
+                    </config>
+                </config>
+                <config key="3">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="CREATE TABLE IF NOT EXISTS &quot;hce_model&quot;.&quot;SGP_DEF_LISTAVALORES&quot; (     &quot;ID_LISTA&quot; NUMERIC PRIMARY KEY,     &quot;DESCRIPCION&quot; VARCHAR(50),     &quot;ULTIMA_ACTUALIZACION&quot; TIMESTAMP,     &quot;REVISADO&quot; BOOLEAN,     &quot;SOURCE_CD&quot; VARCHAR(50),     &quot;SOURCE_CONCEPT_ID&quot; INTEGER,     &quot;CONCEPT_ID&quot; INTEGER );"/>
+                    </config>
+                </config>
+                <config key="4">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="CREATE TABLE IF NOT EXISTS &quot;hce_model&quot;.&quot;SGP_DEF_LISTAVALORES_DETALLE&quot; (     &quot;ID_INTERNO&quot; NUMERIC PRIMARY KEY,     &quot;ID_LISTA&quot; NUMERIC,     &quot;VALOR&quot; NUMERIC,     &quot;DESCRIPCION&quot; VARCHAR(1000),     &quot;ORDEN&quot; NUMERIC,     &quot;VALOR_DEFECTO&quot; VARCHAR(1),     &quot;CAMPO_HL7&quot; VARCHAR(40),     &quot;ULTIMA_ACTUALIZACION&quot; TIMESTAMP,     &quot;REVISADO&quot; BOOLEAN,     &quot;SOURCE_CD&quot; VARCHAR(50),     &quot;SOURCE_CONCEPT_ID&quot; INTEGER,     &quot;CONCEPT_ID&quot; INTEGER );"/>
+                    </config>
+                </config>
+                <config key="5">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="CREATE TABLE IF NOT EXISTS &quot;hce_model&quot;.&quot;SGP_DEF_PLANTILLAS&quot; (     &quot;ID_PLANTILLA&quot; NUMERIC PRIMARY KEY,     &quot;NOMBRE&quot; VARCHAR(200),     &quot;EDITABLE_SGP&quot; VARCHAR(1),     &quot;FECHA_BAJA&quot; TIMESTAMP,     &quot;CAMPO_HL7&quot; VARCHAR(30),     &quot;RELACION_EPICON&quot; VARCHAR(1),     &quot;TIPO_CARDINALIDAD&quot; NUMERIC DEFAULT 2,     &quot;TIENE_ESTADO&quot; VARCHAR(1) DEFAULT 'S',     &quot;ULTIMA_ACTUALIZACION&quot; TIMESTAMP,     &quot;REVISADO&quot; BOOLEAN,     &quot;SOURCE_CD&quot; VARCHAR(50),     &quot;SOURCE_CONCEPT_ID&quot; INTEGER,     &quot;CONCEPT_ID&quot; INTEGER );"/>
+                    </config>
+                </config>
+                <config key="6">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="CREATE TABLE IF NOT EXISTS &quot;hce_model&quot;.&quot;SGP_DEF_TAREAS&quot; (     &quot;ID_TAREA&quot; NUMERIC PRIMARY KEY,     &quot;NOMBRE_CORTO&quot; VARCHAR(100),     &quot;NOMBRE_MOSTRADO&quot; VARCHAR(100),     &quot;OBLIGATORIO&quot; VARCHAR(1),     &quot;ROL_EJECUTA&quot; NUMERIC,     &quot;TIPO_TAREA&quot; NUMERIC,     &quot;ES_PERIODICA&quot; VARCHAR(1),     &quot;PERIODICIDAD_UNIDAD&quot; VARCHAR(80),     &quot;PERIODICIDAD_VALOR&quot; NUMERIC,     &quot;FECHA_BAJA&quot; DATE,     &quot;RANGO_EDAD&quot; VARCHAR(20),     &quot;ULTIMA_ACTUALIZACION&quot; TIMESTAMP,     &quot;REVISADO&quot; BOOLEAN,     &quot;SOURCE_CD&quot; VARCHAR(50),     &quot;SOURCE_CONCEPT_ID&quot; INTEGER,     &quot;CONCEPT_ID&quot; INTEGER );"/>
+                    </config>
+                </config>
+                <config key="7">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="CREATE TABLE IF NOT EXISTS &quot;hce_model&quot;.&quot;SGP_DEF_TIPO_APLICACION&quot; (     &quot;ID_APLICACION&quot; NUMERIC PRIMARY KEY,     &quot;DESCRIPCION&quot; VARCHAR(200),     &quot;ACTION&quot; VARCHAR(200),     &quot;NAMESPACE&quot; VARCHAR(200),     &quot;OPTIONS_JS&quot; VARCHAR(2000),     &quot;ULTIMA_ACTUALIZACION&quot; TIMESTAMP,     &quot;REVISADO&quot; BOOLEAN,     &quot;SOURCE_CD&quot; VARCHAR(50),     &quot;SOURCE_CONCEPT_ID&quot; INTEGER,     &quot;CONCEPT_ID&quot; INTEGER );"/>
+                    </config>
+                </config>
+                <config key="8">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="CREATE TABLE IF NOT EXISTS &quot;hce_model&quot;.&quot;SGP_DEF_DATO_PLANT_DEPEND&quot; (     &quot;ID_DATOBASICO&quot; NUMERIC PRIMARY KEY,     &quot;ID_PLANTILLA&quot; NUMERIC,     &quot;MENSAJE&quot; VARCHAR(4000),     &quot;ULTIMA_ACTUALIZACION&quot; TIMESTAMP,     &quot;REVISADO&quot; BOOLEAN,     &quot;SOURCE_CD&quot; VARCHAR(50),     &quot;SOURCE_CONCEPT_ID&quot; INTEGER,     &quot;CONCEPT_ID&quot; INTEGER );"/>
+                    </config>
+                </config>
+                <config key="9">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="CREATE TABLE IF NOT EXISTS &quot;hce_model&quot;.&quot;SGP_DEF_REL_ACTIV_TAREA&quot; (     &quot;ID_INTERNO&quot; NUMERIC PRIMARY KEY,     &quot;ID_ACTIVIDAD&quot; NUMERIC,     &quot;ID_TAREA&quot; NUMERIC,     &quot;ULTIMA_ACTUALIZACION&quot; TIMESTAMP,     &quot;REVISADO&quot; BOOLEAN,     &quot;SOURCE_CD&quot; VARCHAR(50),     &quot;SOURCE_CONCEPT_ID&quot; INTEGER,     &quot;CONCEPT_ID&quot; INTEGER );"/>
+                    </config>
+                </config>
+                <config key="10">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="CREATE TABLE IF NOT EXISTS &quot;hce_model&quot;.&quot;SGP_DEF_REL_ARQUET_DATOBASIC&quot; (     &quot;ID_INTERNO&quot; NUMERIC,     &quot;ID_ARQUETIPO&quot; NUMERIC,     &quot;ID_DATOBASICO&quot; NUMERIC,     &quot;ORDEN&quot; NUMERIC,     &quot;OBLIGATORIO&quot; VARCHAR(1),     &quot;CM_NOMBRE_MOSTRADO&quot; VARCHAR(100),     &quot;CM_VER_NOMBRE&quot; VARCHAR(1),     &quot;CM_UNIDAD&quot; VARCHAR(20),     &quot;CM_VER_FECHA&quot; VARCHAR(1),     &quot;CM_CLASES_CSS&quot; VARCHAR(4000),     &quot;CM_ESTILOS_CSS&quot; VARCHAR(4000),     &quot;CM_PRE_HEADER_HTML&quot; VARCHAR(4000),     &quot;CM_POST_HEADER_HTML&quot; VARCHAR(4000),     &quot;CM_PRE_FOOTER_HTML&quot; VARCHAR(4000),     &quot;CM_POST_FOOTER_HTML&quot; VARCHAR(4000),     &quot;DT_MAXLENGTH&quot; NUMERIC,     &quot;DT_ENABLE_RTF&quot; VARCHAR(1),     &quot;CM_ENABLE_VALORES_PREVIOS&quot; VARCHAR(1),     &quot;CM_ENABLE_PREREDACTADOS&quot; VARCHAR(1),     &quot;CM_OPTIONS_JS&quot; VARCHAR(4000),     &quot;DNUM_ENABLE_SPINNER&quot; VARCHAR(1),     &quot;DNUM_ENABLE_SLIDER&quot; VARCHAR(1),     &quot;CM_TITLE&quot; VARCHAR(4000),     PRIMARY KEY (&quot;ID_INTERNO&quot;, &quot;ID_ARQUETIPO&quot;, &quot;ID_DATOBASICO&quot;),     &quot;ULTIMA_ACTUALIZACION&quot; TIMESTAMP,     &quot;REVISADO&quot; BOOLEAN,     &quot;SOURCE_CD&quot; VARCHAR(50),     &quot;SOURCE_CONCEPT_ID&quot; INTEGER,     &quot;CONCEPT_ID&quot; INTEGER );"/>
+                    </config>
+                </config>
+                <config key="11">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="CREATE TABLE IF NOT EXISTS &quot;hce_model&quot;.&quot;SGP_DEF_REL_PLANT_ARQUET&quot; (     &quot;ID_INTERNO&quot; NUMERIC,     &quot;ID_PLANTILLA&quot; NUMERIC,     &quot;ID_ARQUETIPO&quot; NUMERIC,     &quot;OBLIGATORIO&quot; VARCHAR(1),     &quot;ORDEN&quot; NUMERIC,     &quot;ID_AGRUPADOR&quot; NUMERIC,     &quot;NOMBRE_MOSTRADO&quot; VARCHAR(100),     &quot;VER_NOMBRE&quot; VARCHAR(1),     &quot;CLASES_CSS&quot; VARCHAR(4000),     &quot;ESTILOS_CSS&quot; VARCHAR(4000),     &quot;PRE_HEADER_HTML&quot; VARCHAR(4000),     &quot;POST_HEADER_HTML&quot; VARCHAR(4000),     &quot;PRE_FOOTER_HTML&quot; VARCHAR(4000),     &quot;POST_FOOTER_HTML&quot; VARCHAR(4000),     PRIMARY KEY (&quot;ID_INTERNO&quot;, &quot;ID_PLANTILLA&quot;, &quot;ID_ARQUETIPO&quot;),     &quot;ULTIMA_ACTUALIZACION&quot; TIMESTAMP,     &quot;REVISADO&quot; BOOLEAN,     &quot;SOURCE_CD&quot; VARCHAR(50),     &quot;SOURCE_CONCEPT_ID&quot; INTEGER,     &quot;CONCEPT_ID&quot; INTEGER );"/>
+                    </config>
+                </config>
+                <config key="12">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="CREATE TABLE IF NOT EXISTS &quot;hce_model&quot;.&quot;SGP_DEF_REL_PLAN_ACTIV&quot; (     &quot;ID_INTERNO&quot; NUMERIC PRIMARY KEY,     &quot;ID_PLAN&quot; NUMERIC,     &quot;ID_ACTIVIDAD&quot; NUMERIC,     &quot;ULTIMA_ACTUALIZACION&quot; TIMESTAMP,     &quot;REVISADO&quot; BOOLEAN,     &quot;SOURCE_CD&quot; VARCHAR(50),     &quot;SOURCE_CONCEPT_ID&quot; INTEGER,     &quot;CONCEPT_ID&quot; INTEGER );"/>
+                    </config>
+                </config>
+                <config key="13">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="CREATE TABLE IF NOT EXISTS &quot;hce_model&quot;.&quot;SGP_DEF_TAREA_TIPO_APLICACION&quot; (     &quot;ID_TAREA&quot; NUMERIC PRIMARY KEY,     &quot;ID_APLICACION&quot; NUMERIC,     &quot;ULTIMA_ACTUALIZACION&quot; TIMESTAMP,     &quot;REVISADO&quot; BOOLEAN,     &quot;SOURCE_CD&quot; VARCHAR(50),     &quot;SOURCE_CONCEPT_ID&quot; INTEGER,     &quot;CONCEPT_ID&quot; INTEGER );"/>
+                    </config>
+                </config>
+                <config key="14">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="CREATE TABLE IF NOT EXISTS &quot;hce_model&quot;.&quot;SGP_DEF_PLANES_PERSONALES&quot; (     &quot;ID_PLAN&quot; NUMERIC PRIMARY KEY,     &quot;NOMBRE_CORTO&quot; VARCHAR(100),     &quot;NOMBRE_MOSTRADO&quot; VARCHAR(100),     &quot;ROL_DEFINE&quot; NUMERIC,     &quot;ROL_EJECUTA&quot; NUMERIC,     &quot;DURACION_UNIDAD&quot; VARCHAR(80),     &quot;DURACION_VALOR&quot; NUMERIC,     &quot;ESTADO&quot; NUMERIC,     &quot;ID_EPISODIO&quot; NUMERIC,     &quot;FECHA_BAJA&quot; DATE,     &quot;VISIBILIDAD&quot; VARCHAR(20),     &quot;RANGO_EDAD&quot; VARCHAR(20),     &quot;ULTIMA_ACTUALIZACION&quot; TIMESTAMP,     &quot;REVISADO&quot; BOOLEAN,     &quot;SOURCE_CD&quot; VARCHAR(50),     &quot;SOURCE_CONCEPT_ID&quot; INTEGER,     &quot;CONCEPT_ID&quot; INTEGER ); "/>
+                    </config>
+                </config>
+                <config key="15">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="CREATE TABLE IF NOT EXISTS &quot;hce_model&quot;.&quot;SGP_DEF_TAREA_TIPO_APL_PARAMS&quot; (     &quot;ID_TAREA&quot; NUMERIC,     &quot;NOMBRE_PARAM&quot; VARCHAR(100),     &quot;VALUE_PARAM&quot; VARCHAR(500),     &quot;ID_PARAM&quot; NUMERIC PRIMARY KEY,     &quot;ULTIMA_ACTUALIZACION&quot; TIMESTAMP,     &quot;REVISADO&quot; BOOLEAN,     &quot;SOURCE_CD&quot; VARCHAR(50),     &quot;SOURCE_CONCEPT_ID&quot; INTEGER,     &quot;CONCEPT_ID&quot; INTEGER ); "/>
+                    </config>
+                </config>
+                <config key="16">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="CREATE TABLE IF NOT EXISTS &quot;hce_model&quot;.&quot;SGP_DEF_TAREA_TIPO_CHECKBOX&quot; (     &quot;ID_TAREA&quot; NUMERIC PRIMARY KEY,     &quot;DESCRIPCION&quot; VARCHAR(200),     &quot;LISTA_VALORES&quot; NUMERIC,     &quot;ULTIMA_ACTUALIZACION&quot; TIMESTAMP,     &quot;REVISADO&quot; BOOLEAN,     &quot;SOURCE_CD&quot; VARCHAR(50),     &quot;SOURCE_CONCEPT_ID&quot; INTEGER,     &quot;CONCEPT_ID&quot; INTEGER );"/>
+                    </config>
+                </config>
+                <config key="17">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="CREATE TABLE IF NOT EXISTS &quot;hce_model&quot;.&quot;SGP_DEF_TAREA_TIPO_GENERICA&quot; (     &quot;ID_TAREA&quot; NUMERIC PRIMARY KEY,     &quot;DESCRIPCION&quot; VARCHAR(200),     &quot;LISTA_VALORES&quot; NUMERIC,     &quot;ULTIMA_ACTUALIZACION&quot; TIMESTAMP,     &quot;REVISADO&quot; BOOLEAN,     &quot;SOURCE_CD&quot; VARCHAR(50),     &quot;SOURCE_CONCEPT_ID&quot; INTEGER,     &quot;CONCEPT_ID&quot; INTEGER ); "/>
+                    </config>
+                </config>
+                <config key="18">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="CREATE TABLE IF NOT EXISTS &quot;hce_model&quot;.&quot;SGP_DEF_TAREA_TIPO_PLANTILLA&quot; (     &quot;ID_TAREA&quot; NUMERIC PRIMARY KEY,     &quot;ID_PLANTILLA&quot; NUMERIC,     &quot;ID_DATOBASICO_RESUMEN&quot; VARCHAR(200),     &quot;ULTIMA_ACTUALIZACION&quot; TIMESTAMP,     &quot;REVISADO&quot; BOOLEAN,     &quot;SOURCE_CD&quot; VARCHAR(50),     &quot;SOURCE_CONCEPT_ID&quot; INTEGER,     &quot;CONCEPT_ID&quot; INTEGER );"/>
+                    </config>
+                </config>
+                <config key="19">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="CREATE TABLE IF NOT EXISTS &quot;hce_model&quot;.&quot;SGP_DEF_TAREA_TIPO_SUPERPLAN&quot; (     &quot;ID_TAREA&quot; NUMERIC PRIMARY KEY,     &quot;ID_PLAN&quot; NUMERIC,     &quot;ID_DATOBASICO_RESUMEN&quot; VARCHAR(200),     &quot;ULTIMA_ACTUALIZACION&quot; TIMESTAMP,     &quot;REVISADO&quot; BOOLEAN,     &quot;SOURCE_CD&quot; VARCHAR(50),     &quot;SOURCE_CONCEPT_ID&quot; INTEGER,     &quot;CONCEPT_ID&quot; INTEGER ); "/>
+                    </config>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="column_spec_14">
+        <entry key="column_name" type="xstring" value="query"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="possible_values">
+                <entry key="array-size" type="xint" value="20"/>
+                <config key="0">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SELECT * FROM &quot;hce_model&quot;.&quot;SGP_DEF_ACTIVIDADES&quot;"/>
+                    </config>
+                </config>
+                <config key="1">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SELECT * FROM &quot;hce_model&quot;.&quot;SGP_DEF_ARQUETIPOS&quot;"/>
+                    </config>
+                </config>
+                <config key="2">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SELECT * FROM &quot;hce_model&quot;.&quot;SGP_DEF_DATOBASICO&quot;"/>
+                    </config>
+                </config>
+                <config key="3">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SELECT * FROM &quot;hce_model&quot;.&quot;SGP_DEF_LISTAVALORES&quot;"/>
+                    </config>
+                </config>
+                <config key="4">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SELECT * FROM &quot;hce_model&quot;.&quot;SGP_DEF_LISTAVALORES_DETALLE&quot;"/>
+                    </config>
+                </config>
+                <config key="5">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SELECT * FROM &quot;hce_model&quot;.&quot;SGP_DEF_PLANTILLAS&quot;"/>
+                    </config>
+                </config>
+                <config key="6">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SELECT * FROM &quot;hce_model&quot;.&quot;SGP_DEF_TAREAS&quot;"/>
+                    </config>
+                </config>
+                <config key="7">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SELECT * FROM &quot;hce_model&quot;.&quot;SGP_DEF_TIPO_APLICACION&quot;"/>
+                    </config>
+                </config>
+                <config key="8">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SELECT * FROM &quot;hce_model&quot;.&quot;SGP_DEF_DATO_PLANT_DEPEND&quot;"/>
+                    </config>
+                </config>
+                <config key="9">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SELECT * FROM &quot;hce_model&quot;.&quot;SGP_DEF_REL_ACTIV_TAREA&quot;"/>
+                    </config>
+                </config>
+                <config key="10">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SELECT * FROM &quot;hce_model&quot;.&quot;SGP_DEF_REL_ARQUET_DATOBASIC&quot;"/>
+                    </config>
+                </config>
+                <config key="11">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SELECT * FROM &quot;hce_model&quot;.&quot;SGP_DEF_REL_PLANT_ARQUET&quot;"/>
+                    </config>
+                </config>
+                <config key="12">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SELECT * FROM &quot;hce_model&quot;.&quot;SGP_DEF_REL_PLAN_ACTIV&quot;"/>
+                    </config>
+                </config>
+                <config key="13">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SELECT * FROM &quot;hce_model&quot;.&quot;SGP_DEF_TAREA_TIPO_APLICACION&quot;"/>
+                    </config>
+                </config>
+                <config key="14">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SELECT * FROM &quot;hce_model&quot;.&quot;SGP_DEF_PLANES_PERSONALES&quot;"/>
+                    </config>
+                </config>
+                <config key="15">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SELECT * FROM &quot;hce_model&quot;.&quot;SGP_DEF_TAREA_TIPO_APL_PARAMS&quot;"/>
+                    </config>
+                </config>
+                <config key="16">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SELECT * FROM &quot;hce_model&quot;.&quot;SGP_DEF_TAREA_TIPO_CHECKBOX&quot;"/>
+                    </config>
+                </config>
+                <config key="17">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SELECT * FROM &quot;hce_model&quot;.&quot;SGP_DEF_TAREA_TIPO_GENERICA&quot;"/>
+                    </config>
+                </config>
+                <config key="18">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SELECT * FROM &quot;hce_model&quot;.&quot;SGP_DEF_TAREA_TIPO_PLANTILLA&quot;"/>
+                    </config>
+                </config>
+                <config key="19">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SELECT * FROM &quot;hce_model&quot;.&quot;SGP_DEF_TAREA_TIPO_SUPERPLAN&quot;"/>
+                    </config>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+</config>

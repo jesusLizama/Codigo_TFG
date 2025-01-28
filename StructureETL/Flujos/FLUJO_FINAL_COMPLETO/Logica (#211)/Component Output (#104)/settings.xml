@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="variable-filter">
+            <entry key="filter-type" type="xstring" value="STANDARD"/>
+            <config key="included_names">
+                <entry key="array-size" type="xint" value="3"/>
+                <entry key="0" type="xstring" value="vector_salida"/>
+                <entry key="1" type="xstring" value="clave_primaria"/>
+                <entry key="2" type="xstring" value="resto_variables"/>
+            </config>
+            <config key="excluded_names">
+                <entry key="array-size" type="xint" value="47"/>
+                <entry key="0" type="xstring" value="Columna7"/>
+                <entry key="1" type="xstring" value="Columna6"/>
+                <entry key="2" type="xstring" value="Columna5"/>
+                <entry key="3" type="xstring" value="Columna4"/>
+                <entry key="4" type="xstring" value="Columna3"/>
+                <entry key="5" type="xstring" value="Columna2"/>
+                <entry key="6" type="xstring" value="Columna1"/>
+                <entry key="7" type="xstring" value="Columna0"/>
+                <entry key="8" type="xstring" value="query"/>
+                <entry key="9" type="xstring" value="user"/>
+                <entry key="10" type="xstring" value="password"/>
+                <entry key="11" type="xstring" value="hostname"/>
+                <entry key="12" type="xstring" value="database"/>
+                <entry key="13" type="xstring" value="port"/>
+                <entry key="14" type="xstring" value="ColumnaDerecha7"/>
+                <entry key="15" type="xstring" value="ColumnaDerecha6"/>
+                <entry key="16" type="xstring" value="ColumnaDerecha5"/>
+                <entry key="17" type="xstring" value="ColumnaDerecha4"/>
+                <entry key="18" type="xstring" value="ColumnaDerecha3"/>
+                <entry key="19" type="xstring" value="ColumnaDerecha2"/>
+                <entry key="20" type="xstring" value="ColumnaDerecha1"/>
+                <entry key="21" type="xstring" value="ColumnaDerecha0"/>
+                <entry key="22" type="xstring" value="schema"/>
+                <entry key="23" type="xstring" value="table_create"/>
+                <entry key="24" type="xstring" value="CREATE TABLE"/>
+                <entry key="25" type="xstring" value="ID_PLANTILLA"/>
+                <entry key="26" type="xstring" value="NOMBRE"/>
+                <entry key="27" type="xstring" value="EDITABLE_SGP"/>
+                <entry key="28" type="xstring" value="FECHA_BAJA"/>
+                <entry key="29" type="xstring" value="CAMPO_HL7"/>
+                <entry key="30" type="xstring" value="RELACION_EPICON"/>
+                <entry key="31" type="xstring" value="TIPO_CARDINALIDAD"/>
+                <entry key="32" type="xstring" value="TIENE_ESTADO"/>
+                <entry key="33" type="xstring" value="ID_PLANTILLA (Right)"/>
+                <entry key="34" type="xstring" value="NOMBRE (Right)"/>
+                <entry key="35" type="xstring" value="EDITABLE_SGP (Right)"/>
+                <entry key="36" type="xstring" value="FECHA_BAJA (Right)"/>
+                <entry key="37" type="xstring" value="CAMPO_HL7 (Right)"/>
+                <entry key="38" type="xstring" value="RELACION_EPICON (Right)"/>
+                <entry key="39" type="xstring" value="TIPO_CARDINALIDAD (Right)"/>
+                <entry key="40" type="xstring" value="TIENE_ESTADO (Right)"/>
+                <entry key="41" type="xstring" value="ULTIMA_ACTUALIZACION"/>
+                <entry key="42" type="xstring" value="REVISADO"/>
+                <entry key="43" type="xstring" value="action"/>
+                <entry key="44" type="xstring" value="valor_1"/>
+                <entry key="45" type="xstring" value="valor_2"/>
+                <entry key="46" type="xstring" value="RowID"/>
+            </config>
+            <entry key="enforce_option" type="xstring" value="EnforceInclusion"/>
+            <config key="name_pattern">
+                <entry key="pattern" type="xstring" value=""/>
+                <entry key="type" type="xstring" value="Wildcard"/>
+                <entry key="caseSensitive" type="xboolean" value="true"/>
+                <entry key="excludeMatching" type="xboolean" value="false"/>
+            </config>
+        </config>
+        <entry key="variable-prefix" type="xstring" isnull="true" value=""/>
+        <config key="port-names">
+            <entry key="array-size" type="xint" value="4"/>
+            <entry key="0" type="xstring" value="Port 1"/>
+            <entry key="1" type="xstring" value="Port 2"/>
+            <entry key="2" type="xstring" value="Port 3"/>
+            <entry key="3" type="xstring" value="Port 4"/>
+        </config>
+        <config key="port-descriptions">
+            <entry key="array-size" type="xint" value="4"/>
+            <entry key="0" type="xstring" value=""/>
+            <entry key="1" type="xstring" value=""/>
+            <entry key="2" type="xstring" value=""/>
+            <entry key="3" type="xstring" value=""/>
+        </config>
+        <entry key="allowOutputNodeToCompleteBeforeContent" type="xboolean" value="false"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="isDeletable" type="xboolean" value="false"/>
+    <entry key="factory" type="xstring" value="org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeOutputNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Component Output"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Core API"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.core"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.3.1.v202408061929"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME AP Core feature"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.core.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.3.1.v202408061929"/>
+    <entry key="factory-id-uniquifier" type="xstring" isnull="true" value=""/>
+    <config key="factory_settings">
+        <config key="port_0">
+            <entry key="index" type="xint" value="0"/>
+            <config key="type">
+                <entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            </config>
+        </config>
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <config key="type">
+                <entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            </config>
+        </config>
+        <config key="port_2">
+            <entry key="index" type="xint" value="2"/>
+            <config key="type">
+                <entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            </config>
+        </config>
+        <config key="port_3">
+            <entry key="index" type="xint" value="3"/>
+            <config key="type">
+                <entry key="object_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObject"/>
+            </config>
+        </config>
+    </config>
+    <entry key="name" type="xstring" value="Component Output"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports"/>
+    <config key="internalObjects">
+        <entry key="location" type="xstring" value="internalTables"/>
+        <config key="content">
+            <config key="object_0">
+                <entry key="index" type="xint" value="0"/>
+                <entry key="type" type="xstring" value="table"/>
+                <entry key="table_dir_location" type="xstring" value="object_0"/>
+            </config>
+            <config key="object_1">
+                <entry key="index" type="xint" value="1"/>
+                <entry key="type" type="xstring" value="table"/>
+                <entry key="table_dir_location" type="xstring" value="object_1"/>
+            </config>
+            <config key="object_2">
+                <entry key="index" type="xint" value="2"/>
+                <entry key="type" type="xstring" value="table"/>
+                <entry key="table_dir_location" type="xstring" value="object_2"/>
+            </config>
+            <config key="object_3">
+                <entry key="index" type="xint" value="3"/>
+                <entry key="type" type="xstring" value="referenced_output"/>
+                <entry key="outport" type="xint" value="0"/>
+            </config>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+    </config>
+</config>

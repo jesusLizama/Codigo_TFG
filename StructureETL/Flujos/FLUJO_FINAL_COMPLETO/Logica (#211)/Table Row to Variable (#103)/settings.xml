@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack">
+        <config key="Variable_0">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="RowID"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value=""/>
+        </config>
+        <config key="Variable_1">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="resto_variables"/>
+            <entry key="class" type="xstring" value="STRINGARRAY"/>
+            <config key="value">
+                <entry key="array-size" type="xint" value="0"/>
+            </config>
+        </config>
+        <config key="Variable_2">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="clave_primaria"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="missing"/>
+        </config>
+        <config key="Variable_3">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="vector_salida"/>
+            <entry key="class" type="xstring" value="STRINGARRAY"/>
+            <config key="value">
+                <entry key="array-size" type="xint" value="0"/>
+            </config>
+        </config>
+        <config key="Variable_4">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="valor_2"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="missing"/>
+        </config>
+        <config key="Variable_5">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="valor_1"/>
+            <entry key="class" type="xstring" value="INTEGER"/>
+            <entry key="value" type="xint" value="0"/>
+        </config>
+        <config key="Variable_6">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="action"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="missing"/>
+        </config>
+        <config key="Variable_7">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="CONCEPT_ID"/>
+            <entry key="class" type="xstring" value="INTEGER"/>
+            <entry key="value" type="xint" value="0"/>
+        </config>
+        <config key="Variable_8">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="SOURCE_CONCEPT_ID"/>
+            <entry key="class" type="xstring" value="INTEGER"/>
+            <entry key="value" type="xint" value="0"/>
+        </config>
+        <config key="Variable_9">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="SOURCE_CD"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="missing"/>
+        </config>
+        <config key="Variable_10">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="REVISADO"/>
+            <entry key="class" type="xstring" value="BOOLEAN"/>
+            <entry key="value" type="xboolean" value="false"/>
+        </config>
+        <config key="Variable_11">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="ULTIMA_ACTUALIZACION"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="missing"/>
+        </config>
+        <config key="Variable_12">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="NIVEL_TITULO (Right)"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="missing"/>
+        </config>
+        <config key="Variable_13">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="OCULTAR_NOMBRE (Right)"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="missing"/>
+        </config>
+        <config key="Variable_14">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="NOMBRE_MOSTRADO (Right)"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="missing"/>
+        </config>
+        <config key="Variable_15">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="CAMPO_HL7 (Right)"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="missing"/>
+        </config>
+        <config key="Variable_16">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="FECHA_BAJA (Right)"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="missing"/>
+        </config>
+        <config key="Variable_17">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="ID_TILE (Right)"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="missing"/>
+        </config>
+        <config key="Variable_18">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="ESTATICO (Right)"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="missing"/>
+        </config>
+        <config key="Variable_19">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="NOMBRE (Right)"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="missing"/>
+        </config>
+        <config key="Variable_20">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="TIPO_CARDINALIDAD (Right)"/>
+            <entry key="class" type="xstring" value="DOUBLE"/>
+            <entry key="value" type="xdouble" value="0.0"/>
+        </config>
+        <config key="Variable_21">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="ID_ARQUETIPO (Right)"/>
+            <entry key="class" type="xstring" value="DOUBLE"/>
+            <entry key="value" type="xdouble" value="0.0"/>
+        </config>
+        <config key="Variable_22">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="NIVEL_TITULO"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="missing"/>
+        </config>
+        <config key="Variable_23">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="OCULTAR_NOMBRE"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="missing"/>
+        </config>
+        <config key="Variable_24">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="NOMBRE_MOSTRADO"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="missing"/>
+        </config>
+        <config key="Variable_25">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="CAMPO_HL7"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="missing"/>
+        </config>
+        <config key="Variable_26">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="FECHA_BAJA"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="missing"/>
+        </config>
+        <config key="Variable_27">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="ID_TILE"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="missing"/>
+        </config>
+        <config key="Variable_28">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="ESTATICO"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="missing"/>
+        </config>
+        <config key="Variable_29">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="NOMBRE"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="missing"/>
+        </config>
+        <config key="Variable_30">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="TIPO_CARDINALIDAD"/>
+            <entry key="class" type="xstring" value="DOUBLE"/>
+            <entry key="value" type="xdouble" value="0.0"/>
+        </config>
+        <config key="Variable_31">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="ID_ARQUETIPO"/>
+            <entry key="class" type="xstring" value="DOUBLE"/>
+            <entry key="value" type="xdouble" value="0.0"/>
+        </config>
+        <config key="Variable_32">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="RowID"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="Row1_Row0"/>
+        </config>
+        <config key="Variable_33">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="resto_variables"/>
+            <entry key="class" type="xstring" value="STRINGARRAY"/>
+            <config key="value">
+                <entry key="array-size" type="xint" value="14"/>
+                <entry key="0" type="xstring" value="TIPO_CARDINALIDAD"/>
+                <entry key="1" type="xstring" value="NOMBRE"/>
+                <entry key="2" type="xstring" value="ESTATICO"/>
+                <entry key="3" type="xstring" value="ID_TILE"/>
+                <entry key="4" type="xstring" value="FECHA_BAJA"/>
+                <entry key="5" type="xstring" value="CAMPO_HL7"/>
+                <entry key="6" type="xstring" value="NOMBRE_MOSTRADO"/>
+                <entry key="7" type="xstring" value="OCULTAR_NOMBRE"/>
+                <entry key="8" type="xstring" value="NIVEL_TITULO"/>
+                <entry key="9" type="xstring" value="ULTIMA_ACTUALIZACION"/>
+                <entry key="10" type="xstring" value="REVISADO"/>
+                <entry key="11" type="xstring" value="SOURCE_CD"/>
+                <entry key="12" type="xstring" value="SOURCE_CONCEPT_ID"/>
+                <entry key="13" type="xstring" value="CONCEPT_ID"/>
+            </config>
+        </config>
+        <config key="Variable_34">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="clave_primaria"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="ID_ARQUETIPO"/>
+        </config>
+        <config key="Variable_35">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="vector_salida"/>
+            <entry key="class" type="xstring" value="STRINGARRAY"/>
+            <config key="value">
+                <entry key="array-size" type="xint" value="15"/>
+                <entry key="0" type="xstring" value="ID_ARQUETIPO"/>
+                <entry key="1" type="xstring" value="TIPO_CARDINALIDAD"/>
+                <entry key="2" type="xstring" value="NOMBRE"/>
+                <entry key="3" type="xstring" value="ESTATICO"/>
+                <entry key="4" type="xstring" value="ID_TILE"/>
+                <entry key="5" type="xstring" value="FECHA_BAJA"/>
+                <entry key="6" type="xstring" value="CAMPO_HL7"/>
+                <entry key="7" type="xstring" value="NOMBRE_MOSTRADO"/>
+                <entry key="8" type="xstring" value="OCULTAR_NOMBRE"/>
+                <entry key="9" type="xstring" value="NIVEL_TITULO"/>
+                <entry key="10" type="xstring" value="ULTIMA_ACTUALIZACION"/>
+                <entry key="11" type="xstring" value="REVISADO"/>
+                <entry key="12" type="xstring" value="SOURCE_CD"/>
+                <entry key="13" type="xstring" value="SOURCE_CONCEPT_ID"/>
+                <entry key="14" type="xstring" value="CONCEPT_ID"/>
+            </config>
+        </config>
+        <config key="Variable_36">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="valor_2"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="missing"/>
+        </config>
+        <config key="Variable_37">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="valor_1"/>
+            <entry key="class" type="xstring" value="INTEGER"/>
+            <entry key="value" type="xint" value="10"/>
+        </config>
+        <config key="Variable_38">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="action"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="NO HACER NADA"/>
+        </config>
+        <config key="Variable_39">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="CONCEPT_ID"/>
+            <entry key="class" type="xstring" value="INTEGER"/>
+            <entry key="value" type="xint" value="0"/>
+        </config>
+        <config key="Variable_40">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="SOURCE_CONCEPT_ID"/>
+            <entry key="class" type="xstring" value="INTEGER"/>
+            <entry key="value" type="xint" value="0"/>
+        </config>
+        <config key="Variable_41">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="SOURCE_CD"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="missing"/>
+        </config>
+        <config key="Variable_42">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="REVISADO"/>
+            <entry key="class" type="xstring" value="BOOLEAN"/>
+            <entry key="value" type="xboolean" value="false"/>
+        </config>
+        <config key="Variable_43">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="ULTIMA_ACTUALIZACION"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="2024-10-25T14:04:45"/>
+        </config>
+        <config key="Variable_44">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="NIVEL_TITULO (Right)"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="normal"/>
+        </config>
+        <config key="Variable_45">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="OCULTAR_NOMBRE (Right)"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="N"/>
+        </config>
+        <config key="Variable_46">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="NOMBRE_MOSTRADO (Right)"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="Plan"/>
+        </config>
+        <config key="Variable_47">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="CAMPO_HL7 (Right)"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="missing"/>
+        </config>
+        <config key="Variable_48">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="FECHA_BAJA (Right)"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="missing"/>
+        </config>
+        <config key="Variable_49">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="ID_TILE (Right)"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="missing"/>
+        </config>
+        <config key="Variable_50">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="ESTATICO (Right)"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="N"/>
+        </config>
+        <config key="Variable_51">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="NOMBRE (Right)"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="HojaIng - Plan"/>
+        </config>
+        <config key="Variable_52">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="TIPO_CARDINALIDAD (Right)"/>
+            <entry key="class" type="xstring" value="DOUBLE"/>
+            <entry key="value" type="xdouble" value="1.0"/>
+        </config>
+        <config key="Variable_53">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="ID_ARQUETIPO (Right)"/>
+            <entry key="class" type="xstring" value="DOUBLE"/>
+            <entry key="value" type="xdouble" value="510.0"/>
+        </config>
+        <config key="Variable_54">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="NIVEL_TITULO"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="normal"/>
+        </config>
+        <config key="Variable_55">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="OCULTAR_NOMBRE"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="N"/>
+        </config>
+        <config key="Variable_56">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="NOMBRE_MOSTRADO"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="Plan"/>
+        </config>
+        <config key="Variable_57">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="CAMPO_HL7"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="missing"/>
+        </config>
+        <config key="Variable_58">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="FECHA_BAJA"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="missing"/>
+        </config>
+        <config key="Variable_59">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="ID_TILE"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="missing"/>
+        </config>
+        <config key="Variable_60">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="ESTATICO"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="N"/>
+        </config>
+        <config key="Variable_61">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="NOMBRE"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="HojaIng - Plan"/>
+        </config>
+        <config key="Variable_62">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="TIPO_CARDINALIDAD"/>
+            <entry key="class" type="xstring" value="DOUBLE"/>
+            <entry key="value" type="xdouble" value="1.0"/>
+        </config>
+        <config key="Variable_63">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="ID_ARQUETIPO"/>
+            <entry key="class" type="xstring" value="DOUBLE"/>
+            <entry key="value" type="xdouble" value="510.0"/>
+        </config>
+    </config>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="missing_value_policy_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="missing_value_policy" type="xstring" value="DEFAULT"/>
+        <config key="default_value_string_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="default_value_string" type="xstring" value="missing"/>
+        <config key="default_value_boolean_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="default_value_boolean" type="xstring" value="false"/>
+        <config key="default_value_integer_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="default_value_integer" type="xint" value="0"/>
+        <config key="default_value_long_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMN_long"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="default_value_long" type="xlong" value="0"/>
+        <config key="default_value_double_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_double"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="default_value_double" type="xdouble" value="0.0"/>
+        <config key="column_selection_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_columnfilter"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <config key="column_selection">
+            <entry key="filter-type" type="xstring" value="STANDARD"/>
+            <config key="included_names">
+                <entry key="array-size" type="xint" value="0"/>
+            </config>
+            <config key="excluded_names">
+                <entry key="array-size" type="xint" value="0"/>
+            </config>
+            <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+            <config key="name_pattern">
+                <entry key="pattern" type="xstring" value=""/>
+                <entry key="type" type="xstring" value="Wildcard"/>
+                <entry key="caseSensitive" type="xboolean" value="true"/>
+                <entry key="excludeMatching" type="xboolean" value="false"/>
+            </config>
+            <config key="datatype">
+                <config key="typelist"/>
+            </config>
+        </config>
+    </config>
+    <config key="nodeAnnotation">
+        <entry key="text" type="xstring" value="Lo utilizamos para saber cuantas %%00010columnas hay que filtrar%%00010(valor_1)"/>
+        <entry key="contentType" type="xstring" value="text/plain"/>
+        <entry key="bgcolor" type="xint" value="16777215"/>
+        <entry key="x-coordinate" type="xint" value="0"/>
+        <entry key="y-coordinate" type="xint" value="0"/>
+        <entry key="width" type="xint" value="0"/>
+        <entry key="height" type="xint" value="0"/>
+        <entry key="alignment" type="xstring" value="CENTER"/>
+        <entry key="borderSize" type="xint" value="0"/>
+        <entry key="borderColor" type="xint" value="0"/>
+        <entry key="defFontSize" type="xint" value="-1"/>
+        <entry key="annotation-version" type="xint" value="20230412"/>
+        <config key="styles"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="factory" type="xstring" value="org.knime.base.node.flowvariable.tablerowtovariable3.TableToVariable3NodeFactory"/>
+    <entry key="node-name" type="xstring" value="Table Row to Variable"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.3.1.v202408020914"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.3.1.v202408020914"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Table Row to Variable"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObjectSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObject"/>
+            <entry key="port_object_summary" type="xstring" value="Variables connection"/>
+            <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+            <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+    </config>
+</config>
